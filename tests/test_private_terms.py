@@ -33,3 +33,15 @@ def test_image_outputs_are_not_read_as_text(tmp_path):
     p = tmp_path / "i.ipynb"
     p.write_text(json.dumps(nb), encoding="utf-8")
     assert cpt.hits(cpt.notebook_lines(p), PLANTED) == []
+
+
+def test_a_key_in_a_notebook_output_is_caught_but_not_one_in_an_image(tmp_path, monkeypatch):
+    key = "AKIA" + "Q" * 16
+    nb = {"cells": [{"source": [], "outputs": [{"text": [f"token {key}\n"]},
+                                               {"data": {"image/png": f"abc{key}xyz"}}]}]}
+    (tmp_path / "n.ipynb").write_text(json.dumps(nb), encoding="utf-8")
+    monkeypatch.setattr(cpt, "tracked_files", lambda root: [tmp_path / "n.ipynb"])
+    assert cpt.main(tmp_path) == 1
+    nb["cells"][0]["outputs"] = nb["cells"][0]["outputs"][1:]
+    (tmp_path / "n.ipynb").write_text(json.dumps(nb), encoding="utf-8")
+    assert cpt.main(tmp_path) == 0

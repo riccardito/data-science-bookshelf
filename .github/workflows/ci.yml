@@ -22,8 +22,8 @@ jobs:
         run: make test
       - name: Every chapter re-executed offline
         run: make notebooks
-      - name: No private product names
+      - name: No private product names, no secrets in notebooks (images skipped)
         run: make scan
-      - name: No secrets
+      - name: No secrets in any other file
         run: |
-          ! git grep -nE 'gh[pousr]_[A-Za-z0-9]{36,}|AKIA[0-9A-Z]{16}|-----BEGIN [A-Z ]*PRIVATE KEY-----|sk-(ant-)?[A-Za-z0-9_-]{24,}'
+          ! git grep -nE 'gh[pousr]_[A-Za-z0-9]{36,}|AKIA[0-9A-Z]{16}|-----BEGIN [A-Z ]*PRIVATE KEY-----|sk-(ant-)?[A-Za-z0-9_-]{24,}' -- ':!*.ipynb'

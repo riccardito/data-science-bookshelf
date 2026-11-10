@@ -1,8 +1,12 @@
-"""No private product name on the shelf -- the check runs in CI, not from memory.
+"""No private product name and no secret on the shelf -- the check runs in CI, not from memory.
 
 The names are never written here: ``PRIVATE_SHA256`` holds the SHA-256 of each lower-cased
 word (the same list `agora-method` publishes), and every word of every tracked text file is
 hashed and compared. Exit 1 on a hit, naming the file and line but not the word.
+
+The same pass looks for secrets (API keys, private keys) in notebooks, whose images are skipped:
+an image is base64, and a run of its letters can look like a key (`AKIA...` matched one once).
+Every other file is searched by `git grep` in CI.
 """
 
 from __future__ import annotations
@@ -25,6 +29,8 @@ PRIVATE_SHA256 = frozenset({
     "7f31e7109b78eb0ab0f9c33f5092557641368faed092a294465ae02c696eda0d",
 })
 WORD = re.compile(r"[A-Za-z][A-Za-z0-9]*")
+SECRET = re.compile(r"gh[pousr]_[A-Za-z0-9]{36,}|AKIA[0-9A-Z]{16}|-----BEGIN [A-Z ]*PRIVATE KEY-----"
+                    r"|sk-(ant-)?[A-Za-z0-9_-]{24,}")
 TEXT = {".md", ".py", ".ipynb", ".toml", ".yml", ".yaml", ".txt", ".csv", ".json", ".cfg", ""}
 
 
@@ -72,7 +78,12 @@ def main(root: Path = Path(".")) -> int:
         for n in hits(lines):
             print(f"{path.relative_to(root)}:{n}: a private term")
             bad += 1
-    print(f"private terms: {bad} hit(s)")
+        if path.suffix == ".ipynb":
+            for n, line in enumerate(lines, 1):
+                if SECRET.search(line):
+                    print(f"{path.relative_to(root)}:{n}: something shaped like a secret")
+                    bad += 1
+    print(f"private terms and notebook secrets: {bad} hit(s)")
     return 1 if bad else 0
 
 
