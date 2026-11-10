@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  shelf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install the toolbox and the chapters' libraries
+        run: make install
+      - name: Lint (the package and every notebook)
+        run: make lint
+      - name: Toolbox tests
+        run: make test
+      - name: Every chapter re-executed offline
+        run: make notebooks
+      - name: No private product names
+        run: make scan
+      - name: No secrets
+        run: |
+          ! git grep -nE 'gh[pousr]_[A-Za-z0-9]{36,}|AKIA[0-9A-Z]{16}|-----BEGIN [A-Z ]*PRIVATE KEY-----|sk-(ant-)?[A-Za-z0-9_-]{24,}'

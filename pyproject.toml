@@ -1,0 +1,57 @@
+[project]
+name = "ds-toolbox"
+version = "0.1.0"
+description = "The toolbox on the data-science bookshelf: public Swiss data, honest evaluation, the baselines every model must beat."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "matplotlib>=3.8",
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+# what the chapters need beyond the toolbox itself
+books = [
+    "scipy>=1.11",
+    "scikit-learn>=1.4",
+    "statsmodels>=0.14",
+    "pillow>=10.0",
+    "jupyter>=1.0",
+]
+tracking = ["mlflow>=2.10"]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "nbmake>=1.5",
+    "ruff>=0.6",
+]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.coverage.run]
+source = ["ds_toolbox"]
+
+[tool.ruff]
+line-length = 115
+target-version = "py311"
+extend-include = ["*.ipynb"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM"]
+ignore = ["SIM108"]
+
+[tool.ruff.lint.per-file-ignores]
+# a chapter reads top to bottom: imports may follow the prose that motivates them
+"*.ipynb" = ["E402"]
