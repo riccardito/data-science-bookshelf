@@ -82,7 +82,7 @@ anywhere.
 |---|---|---|---|---|---|
 | 1 | Linear Algebra | vectors and spaces · matrices as maps · solving systems (LU) · orthogonality and least squares (QR) · eigenvalues and SVD · PCA | **photo-compress**: rank-k SVD compression of a photo, a terrain and a document · the rank for 95 % energy and for 30 dB | FHNW `gla` `lalg` | **built** · [read it](shelves/01-foundations/01-linear-algebra/) · 30 dB at rank 23-101 |
 | 2 | Analysis | limits and continuity · derivatives and the chain rule · Taylor series · integrals · gradients in many variables · automatic differentiation | **tiny-autodiff**: reverse-mode autodiff in ~100 lines · the largest gradient error against finite differences | FHNW `gan` `an1` `an2` | planned |
-| 3 | Probability | counting and axioms · random variables · the common distributions · joint, conditional, Bayes · law of large numbers and CLT by simulation · Monte Carlo | **rockfall**: the Steinschlag challenge redone with the toolbox · the yearly breach probability with its interval | `FHNW-Projects/Probabilities` | **being written** |
+| 3 | Probability | counting and axioms · random variables · the common distributions · joint, conditional, Bayes · law of large numbers and CLT by simulation · Monte Carlo | **rockfall**: the Steinschlag challenge redone on a seeded slope · the breach rate estimated from one season, against the known truth | `FHNW-Projects/Probabilities` | **built** · [read it](shelves/01-foundations/03-probability/) · one season: within 2x a third of the time |
 | 4 | Statistics | descriptive statistics · sampling distributions · confidence intervals · hypothesis tests · the bootstrap · multiple testing | **coverage-check**: bootstrap against t-intervals by simulation · the empirical coverage of a 95 % interval | FHNW `stagl` `wst` | planned |
 | 5 | Numerics | floating point · root finding · interpolation · numerical integration · ODE solvers · conditioning | **ode-race**: Euler, RK4 and `scipy` on an SIR model · the measured order of convergence | FHNW `num` | planned |
 
@@ -187,4 +187,4 @@ anywhere.
 ---
 
 **Counts:** 48 books · about 250 chapters planned · 4 books being written first (1, 3, 21, 27)
-plus the toolbox -- 21 and 27 built, 1 and 3 next · 7 sibling-repository challenges · 5 covers carried over from the knowledge base.
+plus the toolbox -- 1, 3, 21 and 27 built · 7 sibling-repository challenges · 5 covers carried over from the knowledge base.

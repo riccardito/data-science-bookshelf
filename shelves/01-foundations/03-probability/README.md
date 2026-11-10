@@ -66,19 +66,20 @@ This is the same pattern as clinical data:
 
 Read in order: each chapter builds on the one before it.
 
-1. Counting and axioms
-2. Random variables
-3. The common distributions
-4. Joint, conditional, Bayes
-5. Law of large numbers and CLT by simulation
-6. Monte Carlo
+1. [Counting and axioms](01-counting-and-axioms.ipynb) — permutations and combinations, Swiss Lotto, the birthday problem, every count checked by simulation
+2. [Random variables](02-random-variables.ipynb) — pmf, pdf, cdf, expectation, linearity, and why E[g(X)] is not g(E[X])
+3. [The common distributions](03-the-common-distributions.ipynb) — where each distribution comes from; four families fitted to one dataset that agree on the data and not on the tail
+4. [Joint, conditional, Bayes](04-joint-conditional-bayes.ipynb) — conditioning, independence, Bayes' theorem and the base-rate fallacy
+5. [The law of large numbers and the CLT](05-law-of-large-numbers-and-clt.ipynb) — averages, sigma over root n, the cost of a rare event, heavy tails
+6. [Monte Carlo](06-monte-carlo.ipynb) — estimating by sampling, importance sampling for a rare event, validating a model two ways
 
-*The chapters are being written now; each becomes a notebook in this folder.*
+## Challenge · [rockfall](challenge/)
 
-## Challenge
-
-**rockfall**: the Steinschlag challenge redone with the toolbox · the yearly breach probability with its interval
+**From one season of 90 rocks, how well can you estimate how often a rock breaks through a net?** The
+seeded truth is 0.0165 a year. Over 100 seasons, even the true distribution family lands within a factor
+of two only a third of the time, and the lognormal -- the family the 2019 analysis chose -- is a median
+50 times too high. [The notebook](challenge/rockfall.ipynb) · [the numbers](challenge/results.json).
 
 ## Where it was learned
 
-`FHNW-Projects/Probabilities`
+[`FHNW-Projects/Probabilities`](https://github.com/riccardito/FHNW-Projects) -- the 2019 Steinschlag challenge, redone here

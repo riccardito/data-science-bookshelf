@@ -1,0 +1,44 @@
+{
+  "challenge": "rockfall",
+  "true_breach_rate_per_year": 0.01646,
+  "observed_season": {
+    "lognormal": 1.400991,
+    "gamma": 0.014041,
+    "weibull": 0.012774,
+    "exponential": 0.027435
+  },
+  "aic_pick_observed_season": "exponential",
+  "over_seasons": {
+    "lognormal": {
+      "median": 49.8532,
+      "p05": 11.8631,
+      "p95": 165.2693,
+      "within_2x": 0.0
+    },
+    "gamma": {
+      "median": 0.5058,
+      "p05": 0.0016,
+      "p95": 5.8316,
+      "within_2x": 0.33
+    },
+    "weibull": {
+      "median": 0.5835,
+      "p05": 0.0002,
+      "p95": 5.9924,
+      "within_2x": 0.35
+    },
+    "exponential": {
+      "median": 0.8051,
+      "p05": 0.0478,
+      "p95": 4.6435,
+      "within_2x": 0.43
+    },
+    "AIC's pick": {
+      "median": 0.7971,
+      "p05": 0.001,
+      "p95": 6.236,
+      "within_2x": 0.38
+    }
+  },
+  "seasons": 100
+}
