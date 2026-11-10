@@ -1,7 +1,7 @@
 PYTHON ?= python
 NOTEBOOKS := $(shell find shelves -name '*.ipynb' -not -path '*/.ipynb_checkpoints/*' 2>/dev/null)
 
-.PHONY: install install-dl install-tracking test lint notebooks scan check
+.PHONY: install install-dl install-tracking demo figure test lint notebooks scan check
 
 # the toolbox, everything the chapters import, and the dev tools
 install:
@@ -14,6 +14,14 @@ install-dl:
 # MLflow for the run log; without it, tracking writes JSON to runs/
 install-tracking:
 	$(PYTHON) -m pip install -q -e ".[tracking]"
+
+# the four challenges, offline, each printing its number (about three minutes)
+demo:
+	$(PYTHON) scripts/demo.py
+
+# docs/results.png from the committed results
+figure:
+	$(PYTHON) scripts/figure.py
 
 test:
 	$(PYTHON) -m pytest --cov --cov-report=term-missing:skip-covered --cov-fail-under=90
