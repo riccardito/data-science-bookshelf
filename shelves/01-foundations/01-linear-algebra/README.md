@@ -51,18 +51,18 @@ Linear algebra is the language of data. Every dataset is a matrix. Every transfo
 
 Read in order: each chapter builds on the one before it.
 
-1. Vectors and spaces
-2. Matrices as maps
-3. Solving systems (LU)
-4. Orthogonality and least squares (QR)
-5. Eigenvalues and SVD
-6. PCA
+1. [Vectors and spaces](01-vectors-and-spaces.ipynb) — combinations, span, rank, length and angle, cosine similarity
+2. [Matrices as maps](02-matrices-as-maps.ipynb) — rotation, scaling, shear, projection; composition; the determinant
+3. [Solving systems](03-solving-systems.ipynb) — Gaussian elimination by hand, LU, the condition number
+4. [Orthogonality and least squares](04-orthogonality-and-least-squares.ipynb) — projection, Gram-Schmidt, why QR beats the normal equations
+5. [Eigenvalues and the SVD](05-eigenvalues-and-svd.ipynb) — power iteration, rotate-stretch-rotate, the best low-rank approximation
+6. [PCA](06-pca.ipynb) — principal components from the SVD, on handwritten digits
 
-*The chapters are being written now; each becomes a notebook in this folder.*
+## Challenge · [photo-compress](challenge/)
 
-## Challenge
-
-**photo-compress**: rank-k SVD compression of photos · the rank that keeps 95 % of the energy, and PSNR against rank
+**How few singular values does an image need?** Rank for a PSNR of 30 dB: terrain **23**, photograph
+**88**, document **101** -- although the document keeps 95 % of its energy at rank 2. Smooth surfaces are
+low-rank; text is not. [The notebook](challenge/photo-compress.ipynb) · [the numbers](challenge/results.json).
 
 ## Where it was learned
 

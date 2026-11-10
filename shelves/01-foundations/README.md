@@ -6,7 +6,7 @@ Read the books in order: each one assumes the ones above it.
 
 | # | Book | Challenge | State |
 |---|---|---|---|
-| 1 | [Linear Algebra](01-linear-algebra/) | **photo-compress**: rank-k SVD compression of photos · the rank that keeps 95 % of the energy, and PSNR against rank | being written |
+| 1 | [Linear Algebra](01-linear-algebra/) | **photo-compress**: rank-k SVD of a photo, a terrain and a document | **built** · 30 dB at rank 23-101 |
 | 2 | [Analysis](02-analysis/) | **tiny-autodiff**: reverse-mode autodiff in ~100 lines · the largest gradient error against finite differences | planned |
 | 3 | [Probability](03-probability/) | **rockfall**: the Steinschlag challenge redone with the toolbox · the yearly breach probability with its interval | being written |
 | 4 | [Statistics](04-statistics/) | **coverage-check**: bootstrap against t-intervals by simulation · the empirical coverage of a 95 % interval | planned |

@@ -80,7 +80,7 @@ anywhere.
 
 | # | Book | Chapters (foundation → advanced) | Challenge · the number | Evidence | State |
 |---|---|---|---|---|---|
-| 1 | Linear Algebra | vectors and spaces · matrices as maps · solving systems (LU) · orthogonality and least squares (QR) · eigenvalues and SVD · PCA | **photo-compress**: rank-k SVD compression of photos · the rank that keeps 95 % of the energy, and PSNR against rank | FHNW `gla` `lalg` | **being written** |
+| 1 | Linear Algebra | vectors and spaces · matrices as maps · solving systems (LU) · orthogonality and least squares (QR) · eigenvalues and SVD · PCA | **photo-compress**: rank-k SVD compression of a photo, a terrain and a document · the rank for 95 % energy and for 30 dB | FHNW `gla` `lalg` | **built** · [read it](shelves/01-foundations/01-linear-algebra/) · 30 dB at rank 23-101 |
 | 2 | Analysis | limits and continuity · derivatives and the chain rule · Taylor series · integrals · gradients in many variables · automatic differentiation | **tiny-autodiff**: reverse-mode autodiff in ~100 lines · the largest gradient error against finite differences | FHNW `gan` `an1` `an2` | planned |
 | 3 | Probability | counting and axioms · random variables · the common distributions · joint, conditional, Bayes · law of large numbers and CLT by simulation · Monte Carlo | **rockfall**: the Steinschlag challenge redone with the toolbox · the yearly breach probability with its interval | `FHNW-Projects/Probabilities` | **being written** |
 | 4 | Statistics | descriptive statistics · sampling distributions · confidence intervals · hypothesis tests · the bootstrap · multiple testing | **coverage-check**: bootstrap against t-intervals by simulation · the empirical coverage of a 95 % interval | FHNW `stagl` `wst` | planned |

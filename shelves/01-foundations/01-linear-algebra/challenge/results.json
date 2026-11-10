@@ -1,0 +1,27 @@
+{
+  "challenge": "photo-compress",
+  "metric": "rank for 95 % energy and for PSNR 30 dB",
+  "results": [
+    {
+      "image": "photograph",
+      "full rank": 512,
+      "rank for 95 % energy": 15,
+      "rank for PSNR 30 dB": 88,
+      "numbers at that rank vs pixels": "32%"
+    },
+    {
+      "image": "terrain",
+      "full rank": 344,
+      "rank for 95 % energy": 4,
+      "rank for PSNR 30 dB": 23,
+      "numbers at that rank vs pixels": "12%"
+    },
+    {
+      "image": "document",
+      "full rank": 620,
+      "rank for 95 % energy": 2,
+      "rank for PSNR 30 dB": 101,
+      "numbers at that rank vs pixels": "24%"
+    }
+  ]
+}
