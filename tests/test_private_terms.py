@@ -26,3 +26,10 @@ def test_notebook_outputs_are_read_too(tmp_path):
     p = tmp_path / "c.ipynb"
     p.write_text(json.dumps(nb), encoding="utf-8")
     assert cpt.hits(cpt.notebook_lines(p), PLANTED) == [2, 3]
+
+
+def test_image_outputs_are_not_read_as_text(tmp_path):
+    nb = {"cells": [{"source": [], "outputs": [{"data": {"image/png": "abc/zebrafinch/xyz"}}]}]}
+    p = tmp_path / "i.ipynb"
+    p.write_text(json.dumps(nb), encoding="utf-8")
+    assert cpt.hits(cpt.notebook_lines(p), PLANTED) == []

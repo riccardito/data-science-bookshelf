@@ -120,7 +120,7 @@ anywhere.
 |---|---|---|---|---|---|
 | 19 | Linear & Logistic Regression | least squares from scratch · diagnostics · ridge and lasso · logistic regression · GLMs (Poisson) · reading coefficients | **rents**: Swiss rent prices from public data · held-out RMSE and the coefficients that carry it | `FHNW-Projects/MachineLearning` | planned |
 | 20 | Statistical Learning | bias and variance · resampling and cross-validation · model selection · trees and splines · a first ensemble | **cv-honesty**: k-fold and leave-one-out against the true test error, by simulation · the bias of each estimate | FHNW `stl` | planned |
-| 21 | Time Series | time as an index · trend and seasonality · stationarity and autocorrelation · ARIMA and SARIMA · backtesting and time-series CV · learned forecasters (boosting on lags, a small temporal CNN) | **swiss-forecast**: Swiss electricity consumption · MAE of three models against the seasonal baseline | FHNW `spz` | **being written** |
+| 21 | Time Series | time as an index · trend and seasonality · stationarity and autocorrelation · ARIMA and SARIMA · backtesting and time-series CV · learned forecasters (boosting on lags, a small temporal CNN) | **swiss-forecast**: Zurich's hourly electricity, day ahead · MAE of three models against the seasonal baseline | FHNW `spz` | **built** · [read it](shelves/05-statistical-learning/21-time-series/) · MAE 7.29 MW against 15.13 |
 
 ## VI · Machine Learning
 

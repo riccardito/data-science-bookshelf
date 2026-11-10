@@ -38,14 +38,17 @@ def hits(lines: Iterable[str], private: frozenset[str] = PRIVATE_SHA256) -> list
 
 
 def notebook_lines(path: Path) -> list[str]:
-    """A notebook is checked cell by cell -- sources AND outputs."""
+    """A notebook is checked cell by cell -- sources AND text outputs (images are skipped)."""
     nb = json.loads(path.read_text(encoding="utf-8"))
     lines = []
     for cell in nb.get("cells", []):
         lines += "".join(cell.get("source", [])).splitlines()
         for o in cell.get("outputs", []):
             lines += "".join(o.get("text", [])).splitlines()
-            for v in o.get("data", {}).values():
+            for mime, v in o.get("data", {}).items():
+                # an image is base64: its letters are noise, and a short token can match by chance
+                if mime.startswith("image/"):
+                    continue
                 if isinstance(v, list | str):
                     lines += "".join(v).splitlines()
     return lines

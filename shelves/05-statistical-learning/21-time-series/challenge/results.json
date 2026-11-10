@@ -1,0 +1,29 @@
+{
+  "challenge": "swiss-forecast",
+  "data": "ewz Stadt Zürich, hourly, NE5 + NE7",
+  "test_period": [
+    "2025-11-09",
+    "2026-11-08"
+  ],
+  "metric": "MAE, MW, day-ahead, 24 hours per day",
+  "baseline": "seasonal naive (last week)",
+  "results": {
+    "temporal CNN": {
+      "mae_mw": 7.285,
+      "skill_vs_baseline": 0.519
+    },
+    "gradient boosting": {
+      "mae_mw": 7.455,
+      "skill_vs_baseline": 0.507
+    },
+    "SARIMA × last week's shape": {
+      "mae_mw": 12.817,
+      "skill_vs_baseline": 0.153
+    },
+    "seasonal naive (last week)": {
+      "mae_mw": 15.134,
+      "skill_vs_baseline": 0.0
+    }
+  },
+  "best": "temporal CNN"
+}

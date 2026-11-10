@@ -1,11 +1,15 @@
 PYTHON ?= python
 NOTEBOOKS := $(shell find shelves -name '*.ipynb' -not -path '*/.ipynb_checkpoints/*' 2>/dev/null)
 
-.PHONY: install install-tracking test lint notebooks scan check
+.PHONY: install install-dl install-tracking test lint notebooks scan check
 
 # the toolbox, everything the chapters import, and the dev tools
 install:
 	$(PYTHON) -m pip install -q -e ".[books,dev]"
+
+# torch for the deep-learning chapters, the CPU wheel
+install-dl:
+	$(PYTHON) -m pip install -q torch --index-url https://download.pytorch.org/whl/cpu
 
 # MLflow for the run log; without it, tracking writes JSON to runs/
 install-tracking:

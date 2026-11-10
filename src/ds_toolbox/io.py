@@ -17,7 +17,8 @@ from pathlib import Path
 import pandas as pd
 import requests
 
-OPENDATA_API = "https://opendata.swiss/api/3/action/package_show"
+# the portal answers its API on the CKAN host; opendata.swiss itself redirects there
+OPENDATA_API = "https://ckan.opendata.swiss/api/3/action/package_show"
 
 Fetcher = Callable[[str], bytes]
 

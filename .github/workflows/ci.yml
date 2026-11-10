@@ -15,7 +15,7 @@ jobs:
           python-version: "3.11"
           cache: pip
       - name: Install the toolbox and the chapters' libraries
-        run: make install
+        run: make install install-dl
       - name: Lint (the package and every notebook)
         run: make lint
       - name: Toolbox tests
