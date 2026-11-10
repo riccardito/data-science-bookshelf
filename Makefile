@@ -37,7 +37,9 @@ else
 	$(PYTHON) -m pytest --nbmake --nbmake-timeout=600 -p no:cacheprovider $(NOTEBOOKS)
 endif
 
+# private names (by hash) and secrets in notebooks, then secrets in every other file -- what CI runs
 scan:
 	$(PYTHON) scripts/check_private_terms.py
+	! git grep -nE 'gh[pousr]_[A-Za-z0-9]{36,}|AKIA[0-9A-Z]{16}|-----BEGIN [A-Z ]*PRIVATE KEY-----|sk-(ant-)?[A-Za-z0-9_-]{24,}' -- ':!*.ipynb'
 
 check: lint test notebooks scan
