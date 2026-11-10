@@ -136,7 +136,7 @@ anywhere.
 | # | Book | Chapters | Challenge · the number | Evidence | State |
 |---|---|---|---|---|---|
 | 26 | Deep Learning Fundamentals | the perceptron · an MLP in NumPy · backpropagation · training (optimisers, regularisation) · CNNs · RNNs and LSTMs | **from-scratch**: the NumPy MLP against the same net in PyTorch · the accuracy gap (should be ~0) | `FHNW-Projects/DeepLearning` | planned |
-| 27 | DL on Images & Signals | images as arrays · classical image processing · geometry and distortion (what a phone photo does) · detection · CNNs and transfer learning · OCR and documents | **qr-bill-reader**: synthetic Swiss QR bills photographed badly · fields read correctly, per image quality | FHNW `dlbs` `bver` | **being written** |
+| 27 | DL on Images & Signals | images as arrays · classical image processing · geometry and distortion (what a phone photo does) · detection · CNNs on images (and when transfer learning pays) · OCR and documents | **qr-bill-reader**: synthetic Swiss QR bills photographed badly · fields read correctly, per image quality | FHNW `dlbs` `bver` | **built** · [read it](shelves/07-deep-learning/27-dl-vision-signals/) · 83 % of fields from a blurred photo |
 | 28 | Advanced Deep Learning | attention · transformers · pretrained models and fine-tuning · embeddings and retrieval · generative models | → [`fedlex-rag`](https://github.com/riccardito/fedlex-rag) | FHNW `vdl` | planned |
 
 ## VIII · Specialized Domains
@@ -187,4 +187,4 @@ anywhere.
 ---
 
 **Counts:** 48 books · about 250 chapters planned · 4 books being written first (1, 3, 21, 27)
-plus the toolbox · 7 sibling-repository challenges · 5 covers carried over from the knowledge base.
+plus the toolbox -- 21 and 27 built, 1 and 3 next · 7 sibling-repository challenges · 5 covers carried over from the knowledge base.

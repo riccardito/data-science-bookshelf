@@ -1,0 +1,605 @@
+{
+ "note": "Recorded answers, keyed by the SHA-256 of each request (ds_toolbox.llm).",
+ "entries": {
+  "01c22bed6b734b8e5a91687178a37c76063a15b003f999cf6f1ab5268b4a8cd8": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH8331679588006893576\r\nS\r\nMuster AG\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n7898.37\r\nCHF\r\nS\r\nDavid Steiner\r\n\r\n\r\n1201\r\nGenève\r\nCH\r\nQRR\r\n086609243044054375968592978\r\n\r\nEPD"
+  },
+  "01d44296928eadc6620aeba5bbba74fba6ac25121e259064e3d25b4aeaea55a9": {
+   "task": "qr",
+   "output": null
+  },
+  "032b0f7270e012eb9164dae6eac46dd2729c03f2de5920d1e7612fdeaf7e368f": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH8830767611782920941\r\nS\r\nMuster AG\r\n\r\n\r\n6003\r\nLuzern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n96.80\r\nCHF\r\nS\r\nSara Keller\r\n\r\n\r\n6900\r\nLugano\r\nCH\r\nQRR\r\n368209872600402057099749643\r\n\r\nEPD"
+  },
+  "06af0bea946eea65733aac104a82563495bce828031566662d8156b32e2d4381": {
+   "task": "qr",
+   "output": null
+  },
+  "074b49efe461aaaf604e3fe97d7f1ce82a5fb37f0f019da2dab1aaac489ee785": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH5930202616057398079\r\nS\r\nRigi Gartenbau GmbH\r\n\r\n\r\n8000\r\nZürich\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1356.79\r\nCHF\r\nS\r\nNoah Frei\r\n\r\n\r\n8400\r\nWinterthur\r\nCH\r\nQRR\r\n900247151542675674260103364\r\n\r\nEPD"
+  },
+  "07663b3d875c84c8eda31070cea1fd36cf8c5d49795b07859f92b628306c9337": {
+   "task": "qr",
+   "output": null
+  },
+  "083480645e9eb0126902d8cb4305d23a979ad7eff026e178ed19bc5f5d55dd01": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH5430843023072533995\r\nS\r\nAare Reinigung GmbH\r\n\r\n\r\n8400\r\nWinterthur\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n61.92\r\nCHF\r\nS\r\nLuca Meier\r\n\r\n\r\n8000\r\nZürich\r\nCH\r\nQRR\r\n582448400255557991911744420\r\n\r\nEPD"
+  },
+  "08b69855cdd5f3054c37f22d585979253f96db0472fcae4c1a7e029596a14257": {
+   "task": "qr",
+   "output": null
+  },
+  "0e165be2af6ef7e5bb0addcb52fb68355acf5e4d4578ea600d6f30446b56555e": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH3431227289330817305\r\nS\r\nLötschberg Transport AG\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1668.44\r\nCHF\r\nS\r\nMia Schmid\r\n\r\n\r\n8000\r\nZürich\r\nCH\r\nQRR\r\n204230976589187492869595892\r\n\r\nEPD"
+  },
+  "0f41be862d4f3e0cd1df174b184a44078db3078e174fcfacd55f123d1500013e": {
+   "task": "qr",
+   "output": null
+  },
+  "0f7b7b19060cbb7e3ef512d146b13b6580782ada0c2d54021a927e9ce5939367": {
+   "task": "qr",
+   "output": null
+  },
+  "12e87b94725331cb444afbb5c07099edf334ab02c802345ea5427ce3e3555b97": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH8830312335890089575\r\nS\r\nSäntis Holzbau AG\r\n\r\n\r\n1201\r\nGenève\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n19.24\r\nCHF\r\nS\r\nLuca Meier\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\nQRR\r\n415172968855826484701838682\r\n\r\nEPD"
+  },
+  "14162e04c9c89a642f8317796f3722092cb2fac5407a5594f136fe83a52f7471": {
+   "task": "qr",
+   "output": null
+  },
+  "145ec25c38433a0d5f86addfafc24061c4408e9b7c15c5abfd4b461f5ef24ed5": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH4330689486037556390\r\nS\r\nAare Reinigung GmbH\r\n\r\n\r\n5000\r\nAarau\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1067.80\r\nCHF\r\nS\r\nLaura Fischer\r\n\r\n\r\n8400\r\nWinterthur\r\nCH\r\nQRR\r\n504374903734171018755962863\r\n\r\nEPD"
+  },
+  "14cf317a2708fdf7dc3b7d2d1b3470479eab175a8bed3e0f686e336d8396a97d": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH8830312335890089575\r\nS\r\nSäntis Holzbau AG\r\n\r\n\r\n1201\r\nGenève\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n19.24\r\nCHF\r\nS\r\nLuca Meier\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\nQRR\r\n415172968855826484701838682\r\n\r\nEPD"
+  },
+  "1520302766516699edd659c4c3585644942fe3091f94cb65603f46e35c325a88": {
+   "task": "qr",
+   "output": null
+  },
+  "172280d65663ae25fc236f93c3e75bae409babb6de2f5bb53429d65318228f77": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH5831597505847572982\r\nS\r\nLötschberg Transport AG\r\n\r\n\r\n6900\r\nLugano\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n50.13\r\nCHF\r\nS\r\nDavid Steiner\r\n\r\n\r\n1201\r\nGenève\r\nCH\r\nQRR\r\n274665906707058919346631416\r\n\r\nEPD"
+  },
+  "19e160d462d14c4509c5a4a4da2190683358076e16df23bc8830dd28e144b57c": {
+   "task": "qr",
+   "output": null
+  },
+  "1f724cad4d4cc0a615175e0472041e2c24caa3277e6b67e97db98270d50751df": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH0830566427180050416\r\nS\r\nLimmat Druck GmbH\r\n\r\n\r\n5000\r\nAarau\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n5421.97\r\nCHF\r\nS\r\nLea Brunner\r\n\r\n\r\n8000\r\nZürich\r\nCH\r\nQRR\r\n073889485390558571497442782\r\n\r\nEPD"
+  },
+  "1fb10880bda0edef24bda5dafc6b440a4fae9206840f8fcc75bdc37945031cf6": {
+   "task": "qr",
+   "output": null
+  },
+  "209466893c1e4c0aa5da357ba5b093443b4edf49a6cd0f12918b338aa58e87ed": {
+   "task": "qr",
+   "output": null
+  },
+  "23098e032d150e34247fac33a99906f02aa35059e5f76b4f791be276927ed5e9": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH3431227289330817305\r\nS\r\nLötschberg Transport AG\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1668.44\r\nCHF\r\nS\r\nMia Schmid\r\n\r\n\r\n8000\r\nZürich\r\nCH\r\nQRR\r\n204230976589187492869595892\r\n\r\nEPD"
+  },
+  "2381803cc865570dc1dc632c94e59783a393ba9eae1af33e3a622a03fef3d61f": {
+   "task": "qr",
+   "output": null
+  },
+  "29704ee4d265b32334d6260a31827ea99a29e95273a06c87b8bde96928b4739e": {
+   "task": "qr",
+   "output": null
+  },
+  "29cbfa3e63786c1baa16cfc48293a8bbfe2ace6273e1a533175d8788ee487e4c": {
+   "task": "qr",
+   "output": null
+  },
+  "2a54e1c882be02f191dd7730001e7c2821a8a0ee9400edf8c15ac2891a1a93ce": {
+   "task": "qr",
+   "output": null
+  },
+  "2c576ca07edaf4a961fe92450a84a6800feee9f931c4ffb2db5133554d7a1100": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH0830566427180050416\r\nS\r\nLimmat Druck GmbH\r\n\r\n\r\n5000\r\nAarau\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n5421.97\r\nCHF\r\nS\r\nLea Brunner\r\n\r\n\r\n8000\r\nZürich\r\nCH\r\nQRR\r\n073889485390558571497442782\r\n\r\nEPD"
+  },
+  "2dfe58d1ece5af530ae312d9a384b3c410da12f0d7caaee5ca980def9ac6a269": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH3931066866921859918\r\nS\r\nBergquelle Getränke AG\r\n\r\n\r\n1201\r\nGenève\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n638.24\r\nCHF\r\nS\r\nSara Keller\r\n\r\n\r\n1003\r\nLausanne\r\nCH\r\nQRR\r\n247269794343554726831586291\r\n\r\nEPD"
+  },
+  "2e3c9ffa407b36b0ee9b55d42584ded99f970628d7212b28ecedbf976790f71e": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH5830349115200437191\r\nS\r\nPilatus Software AG\r\n\r\n\r\n3000\r\nBern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1116.65\r\nCHF\r\nS\r\nTim Graf\r\n\r\n\r\n7000\r\nChur\r\nCH\r\nQRR\r\n070366767797213808361796502\r\n\r\nEPD"
+  },
+  "2e73e877dad8d21f95a97fee8941c5a287fcb267db9f33351e21b4d8cf901b2e": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH7730248506364128715\r\nS\r\nMuster AG\r\n\r\n\r\n6003\r\nLuzern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n5294.91\r\nCHF\r\nS\r\nNoah Frei\r\n\r\n\r\n8000\r\nZürich\r\nCH\r\nQRR\r\n142377381026865009144849844\r\n\r\nEPD"
+  },
+  "2f7ac50c7005339d5a846717fd944914b6f39d1fa2e756d40a88dc6bf553548a": {
+   "task": "qr",
+   "output": null
+  },
+  "2fae261b3a57cf6ea6dd17d0cb2cbeff7aeb85f1b83450c2203b6a61612f9196": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH3431227289330817305\r\nS\r\nLötschberg Transport AG\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1668.44\r\nCHF\r\nS\r\nMia Schmid\r\n\r\n\r\n8000\r\nZürich\r\nCH\r\nQRR\r\n204230976589187492869595892\r\n\r\nEPD"
+  },
+  "317ec736c3524e96106429f056acb1b7a3cee26fad4745918a357475390cc6d7": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH9530057192804240236\r\nS\r\nSeeblick Treuhand AG\r\n\r\n\r\n8400\r\nWinterthur\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n87.83\r\nCHF\r\nS\r\nLuca Meier\r\n\r\n\r\n8400\r\nWinterthur\r\nCH\r\nQRR\r\n346080389932435043640384092\r\n\r\nEPD"
+  },
+  "31f0a9c2573b24630443598433b36d75231f3a9ce8eda77fd399ae9af54529c8": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH4131102160160960542\r\nS\r\nSeeblick Treuhand AG\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n77.72\r\nCHF\r\nS\r\nNina Baumann\r\n\r\n\r\n6900\r\nLugano\r\nCH\r\nQRR\r\n977306549137692144006175438\r\n\r\nEPD"
+  },
+  "334690342453ebbc1e08fad643fba8fc04ed4cc73fcfb113ed2a52a1dd42ca08": {
+   "task": "qr",
+   "output": null
+  },
+  "3412a9d19be83f1ad6ee76dacc1084965153473227b5d661d62ec6ed653a9b7a": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH4330689486037556390\r\nS\r\nAare Reinigung GmbH\r\n\r\n\r\n5000\r\nAarau\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1067.80\r\nCHF\r\nS\r\nLaura Fischer\r\n\r\n\r\n8400\r\nWinterthur\r\nCH\r\nQRR\r\n504374903734171018755962863\r\n\r\nEPD"
+  },
+  "346f281189a9afbfdfa408ecfb2ac0707b47ec09fe612eedce5216449afc9a55": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH1730014391482017089\r\nS\r\nBergquelle Getränke AG\r\n\r\n\r\n4051\r\nBasel\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n8.73\r\nCHF\r\nS\r\nElias Huber\r\n\r\n\r\n6003\r\nLuzern\r\nCH\r\nQRR\r\n203761611520927998323660809\r\n\r\nEPD"
+  },
+  "34dd8e4d1d2c57dd4a5cc25411f8efdfebe8fa3456eb61f7b489a77886dc69a2": {
+   "task": "qr",
+   "output": null
+  },
+  "38441b4cbf637eb3f73ab539fd028195b4ac6dcff532e46c32a08ce4295855bc": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH7730248506364128715\r\nS\r\nMuster AG\r\n\r\n\r\n6003\r\nLuzern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n5294.91\r\nCHF\r\nS\r\nNoah Frei\r\n\r\n\r\n8000\r\nZürich\r\nCH\r\nQRR\r\n142377381026865009144849844\r\n\r\nEPD"
+  },
+  "3c44e3a6d1d0fe29f8ea4240e88f9926ccf0b0983ac982e79590fa970346dff4": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH4330689486037556390\r\nS\r\nAare Reinigung GmbH\r\n\r\n\r\n5000\r\nAarau\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1067.80\r\nCHF\r\nS\r\nLaura Fischer\r\n\r\n\r\n8400\r\nWinterthur\r\nCH\r\nQRR\r\n504374903734171018755962863\r\n\r\nEPD"
+  },
+  "3c74a03567bebb9eb201eeeb841868b4f081c3dc5ec96fa29399eebab2049549": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH7230005623915349177\r\nS\r\nMuster AG\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1355.32\r\nCHF\r\nS\r\nDavid Steiner\r\n\r\n\r\n9000\r\nSt. Gallen\r\nCH\r\nQRR\r\n091329924613809133347625797\r\n\r\nEPD"
+  },
+  "41aac633135b7083be1270194ff702c8ef8e7d652ce23082509ab6eeeb7f61b8": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH6930399206658595864\r\nS\r\nMuster AG\r\n\r\n\r\n3000\r\nBern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n8602.53\r\nCHF\r\nS\r\nLea Brunner\r\n\r\n\r\n4051\r\nBasel\r\nCH\r\nQRR\r\n299652718700930567216695110\r\n\r\nEPD"
+  },
+  "424598f8c03ffd34f2ea1c529a8d03375ae59c92905f465215e038941ba3ab06": {
+   "task": "qr",
+   "output": null
+  },
+  "4289bf50313a38d7cd9140474500b839b814165e37ef0778e324d485cbf81ba3": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH8331679588006893576\r\nS\r\nMuster AG\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n7898.37\r\nCHF\r\nS\r\nDavid Steiner\r\n\r\n\r\n1201\r\nGenève\r\nCH\r\nQRR\r\n086609243044054375968592978\r\n\r\nEPD"
+  },
+  "4300d4d981da55ac49a4c18556e23c7dd038a1800a64a03a544ba0c79591f70c": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH8830698255564810364\r\nS\r\nLimmat Druck GmbH\r\n\r\n\r\n1003\r\nLausanne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n2062.04\r\nCHF\r\nS\r\nLea Brunner\r\n\r\n\r\n1003\r\nLausanne\r\nCH\r\nQRR\r\n903507734284538678836162080\r\n\r\nEPD"
+  },
+  "4797862fd5c42b4026b95b9d4ed1339b8330971d1940fd7dc3acd6279b1ecda9": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH7730248506364128715\r\nS\r\nMuster AG\r\n\r\n\r\n6003\r\nLuzern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n5294.91\r\nCHF\r\nS\r\nNoah Frei\r\n\r\n\r\n8000\r\nZürich\r\nCH\r\nQRR\r\n142377381026865009144849844\r\n\r\nEPD"
+  },
+  "479c2ea752cb2f61c193e2e30bf8fe3b1cba0607ec1333a97374963dc507d68b": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH1130242054224647058\r\nS\r\nMuster AG\r\n\r\n\r\n6003\r\nLuzern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1021.58\r\nCHF\r\nS\r\nAnna Beispiel\r\n\r\n\r\n5000\r\nAarau\r\nCH\r\nQRR\r\n603891876919971062491081580\r\n\r\nEPD"
+  },
+  "489e2f04a0f0eaa963514112379c84920f0cf27ab69abe8c74450ce7a4483711": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH5930202616057398079\r\nS\r\nRigi Gartenbau GmbH\r\n\r\n\r\n8000\r\nZürich\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1356.79\r\nCHF\r\nS\r\nNoah Frei\r\n\r\n\r\n8400\r\nWinterthur\r\nCH\r\nQRR\r\n900247151542675674260103364\r\n\r\nEPD"
+  },
+  "48e716b1311e016c7e10ff9561c3d7e30b5fd17cf967c138df8150b46e83160d": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH8331679588006893576\r\nS\r\nMuster AG\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n7898.37\r\nCHF\r\nS\r\nDavid Steiner\r\n\r\n\r\n1201\r\nGenève\r\nCH\r\nQRR\r\n086609243044054375968592978\r\n\r\nEPD"
+  },
+  "4954f3f1722f9b2ffa50294dff98c5a7c1d7964c858b71dad431f62315185996": {
+   "task": "qr",
+   "output": null
+  },
+  "4a397393dcb659282e54e989edf7a6253e0e9c3b18e6c99c6ce59cf13558e9b5": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH9031040369534806361\r\nS\r\nRhein Elektro GmbH\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n7673.21\r\nCHF\r\nS\r\nLuca Meier\r\n\r\n\r\n7000\r\nChur\r\nCH\r\nQRR\r\n180311976286307464166549653\r\n\r\nEPD"
+  },
+  "4c38eb92292a889421b75e69508f29f99fbd68fb108671fad92f463087b9f45d": {
+   "task": "qr",
+   "output": null
+  },
+  "4fe62b7951df5d5d25f6a59d206061646b6439c5ab2fad189f637f1f7d08e19f": {
+   "task": "qr",
+   "output": null
+  },
+  "513c3cf2cc763ecad47cd4d73dbba8e4c06ed0ea6599cacde90b6f3cd579a8ea": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH7230005623915349177\r\nS\r\nMuster AG\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1355.32\r\nCHF\r\nS\r\nDavid Steiner\r\n\r\n\r\n9000\r\nSt. Gallen\r\nCH\r\nQRR\r\n091329924613809133347625797\r\n\r\nEPD"
+  },
+  "5230a5f256f29a9609218ce1bfccbfe82dcdc4f8d3ceed976ee475a38d1a5d0f": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH4630942559136609341\r\nS\r\nLötschberg Transport AG\r\n\r\n\r\n5000\r\nAarau\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1445.90\r\nCHF\r\nS\r\nLea Brunner\r\n\r\n\r\n9000\r\nSt. Gallen\r\nCH\r\nQRR\r\n753406874141940985868889463\r\n\r\nEPD"
+  },
+  "525367e9c8104062cc5cee9d7cd4cd83751f1f088cdf836dea7eee13a1db97a3": {
+   "task": "qr",
+   "output": null
+  },
+  "536b4997ff70713e8c56fc6f2d25284a283e8c8bcbfe62f5bc1dfad289fc9594": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH9631833277956707024\r\nS\r\nMuster AG\r\n\r\n\r\n3000\r\nBern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n13.97\r\nCHF\r\nS\r\nLaura Fischer\r\n\r\n\r\n8400\r\nWinterthur\r\nCH\r\nQRR\r\n867522653392354462745729456\r\n\r\nEPD"
+  },
+  "5732260226bdf4a7f4aa6cbdc775dacb9666c62ccb73f1325773af2460113db9": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH9631833277956707024\r\nS\r\nMuster AG\r\n\r\n\r\n3000\r\nBern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n13.97\r\nCHF\r\nS\r\nLaura Fischer\r\n\r\n\r\n8400\r\nWinterthur\r\nCH\r\nQRR\r\n867522653392354462745729456\r\n\r\nEPD"
+  },
+  "58d2130cd965d0ec6a0480d29717c9cbd9c12fb67ce89d512944e996dcfa09d5": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH2131162634260783886\r\nS\r\nPilatus Software AG\r\n\r\n\r\n9000\r\nSt. Gallen\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n250.70\r\nCHF\r\nS\r\nLuca Meier\r\n\r\n\r\n1201\r\nGenève\r\nCH\r\nQRR\r\n323907021881517064123754503\r\n\r\nEPD"
+  },
+  "5ecfbb0c182e65e999f2eafb5864625f202cc13610267b135125a136953b967d": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH8830698255564810364\r\nS\r\nLimmat Druck GmbH\r\n\r\n\r\n1003\r\nLausanne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n2062.04\r\nCHF\r\nS\r\nLea Brunner\r\n\r\n\r\n1003\r\nLausanne\r\nCH\r\nQRR\r\n903507734284538678836162080\r\n\r\nEPD"
+  },
+  "5f5608e6b413faf63cfa639d3f840bf17d7fc9f1c09fe543502c7408615c57ad": {
+   "task": "qr",
+   "output": null
+  },
+  "62cea3b4cdbe046bf665dc866829ab2272987d53db7687f02ed86ebcdc097bc6": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH9530057192804240236\r\nS\r\nSeeblick Treuhand AG\r\n\r\n\r\n8400\r\nWinterthur\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n87.83\r\nCHF\r\nS\r\nLuca Meier\r\n\r\n\r\n8400\r\nWinterthur\r\nCH\r\nQRR\r\n346080389932435043640384092\r\n\r\nEPD"
+  },
+  "62e8be296ea8da4988c19ecb0ac60388f950efebf40837a7c15a7c4042eab405": {
+   "task": "qr",
+   "output": null
+  },
+  "63fcf2bcefd3e32be35180f27c7dd3fc58566422ed5ba1721a2572052c26bebb": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH5831597505847572982\r\nS\r\nLötschberg Transport AG\r\n\r\n\r\n6900\r\nLugano\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n50.13\r\nCHF\r\nS\r\nDavid Steiner\r\n\r\n\r\n1201\r\nGenève\r\nCH\r\nQRR\r\n274665906707058919346631416\r\n\r\nEPD"
+  },
+  "646ff4057f2a5247d0aaf490f0663e4f44bb76c22fe10916f15e1cfb1e236da6": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH8830767611782920941\r\nS\r\nMuster AG\r\n\r\n\r\n6003\r\nLuzern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n96.80\r\nCHF\r\nS\r\nSara Keller\r\n\r\n\r\n6900\r\nLugano\r\nCH\r\nQRR\r\n368209872600402057099749643\r\n\r\nEPD"
+  },
+  "64738818a6d5ab4edbf40801ea5b7954aed1eaab5b0c3422aa0e8d1ed076ee50": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH5831597505847572982\r\nS\r\nLötschberg Transport AG\r\n\r\n\r\n6900\r\nLugano\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n50.13\r\nCHF\r\nS\r\nDavid Steiner\r\n\r\n\r\n1201\r\nGenève\r\nCH\r\nQRR\r\n274665906707058919346631416\r\n\r\nEPD"
+  },
+  "650a03d516092d6e6d8ebcd31893137f4d1427f30573e97cc8f3e1f416f6c402": {
+   "task": "qr",
+   "output": null
+  },
+  "65a4641ffb229662883434135e00b1ea7734a9651513a42df6b17621d356805a": {
+   "task": "qr",
+   "output": null
+  },
+  "65b91798e71a81ed1a04b75db7f269a1bfc415617cf16f99e0145c98eb292cd5": {
+   "task": "qr",
+   "output": null
+  },
+  "68b7d5e7e375a5c4af9318d3076f77d5f73fef6769717d1b876e8181a44b5448": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH4730439900872545486\r\nS\r\nLimmat Druck GmbH\r\n\r\n\r\n4051\r\nBasel\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n6163.75\r\nCHF\r\nS\r\nNina Baumann\r\n\r\n\r\n6900\r\nLugano\r\nCH\r\nQRR\r\n824512857872884732528718758\r\n\r\nEPD"
+  },
+  "6bd4ed8a080d845b12dd62667ff4a41ca3a83920a21e861fefe2bd54e690d38b": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH9631833277956707024\r\nS\r\nMuster AG\r\n\r\n\r\n3000\r\nBern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n13.97\r\nCHF\r\nS\r\nLaura Fischer\r\n\r\n\r\n8400\r\nWinterthur\r\nCH\r\nQRR\r\n867522653392354462745729456\r\n\r\nEPD"
+  },
+  "70c907f5fd0c8a5c73a2399d5ae53621b78cd27c94cf2d043dfbc374940d693d": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH7731400211371218599\r\nS\r\nRigi Gartenbau GmbH\r\n\r\n\r\n3000\r\nBern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n2487.84\r\nCHF\r\nS\r\nNoah Frei\r\n\r\n\r\n8000\r\nZürich\r\nCH\r\nQRR\r\n499585723540849903177154970\r\n\r\nEPD"
+  },
+  "72da2f0a496bc7d591ae5661420fbaf3c295918c6f3c0357caf9a3c06157feb6": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH5830349115200437191\r\nS\r\nPilatus Software AG\r\n\r\n\r\n3000\r\nBern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1116.65\r\nCHF\r\nS\r\nTim Graf\r\n\r\n\r\n7000\r\nChur\r\nCH\r\nQRR\r\n070366767797213808361796502\r\n\r\nEPD"
+  },
+  "74bb289fb0ec60f108d66b9d4c2e36745c62dc1ae8f346110bb3019f43b27367": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH7731400211371218599\r\nS\r\nRigi Gartenbau GmbH\r\n\r\n\r\n3000\r\nBern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n2487.84\r\nCHF\r\nS\r\nNoah Frei\r\n\r\n\r\n8000\r\nZürich\r\nCH\r\nQRR\r\n499585723540849903177154970\r\n\r\nEPD"
+  },
+  "7597582fb5856706c13fa82e4021bce96816c082980316857fee4be3aa4526aa": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH4630942559136609341\r\nS\r\nLötschberg Transport AG\r\n\r\n\r\n5000\r\nAarau\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1445.90\r\nCHF\r\nS\r\nLea Brunner\r\n\r\n\r\n9000\r\nSt. Gallen\r\nCH\r\nQRR\r\n753406874141940985868889463\r\n\r\nEPD"
+  },
+  "761d84393c8657feb6f67ca9747de6c5d5418876463a0ef3a0b095a7c37abf63": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH9131059775832021026\r\nS\r\nLimmat Druck GmbH\r\n\r\n\r\n1201\r\nGenève\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n8319.76\r\nCHF\r\nS\r\nLea Brunner\r\n\r\n\r\n6003\r\nLuzern\r\nCH\r\nQRR\r\n054462361666677652728894923\r\n\r\nEPD"
+  },
+  "7acf73aeb8b061bf9b9b296fb6348035fd6727db544cab99464839f44aaa16bb": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH4131102160160960542\r\nS\r\nSeeblick Treuhand AG\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n77.72\r\nCHF\r\nS\r\nNina Baumann\r\n\r\n\r\n6900\r\nLugano\r\nCH\r\nQRR\r\n977306549137692144006175438\r\n\r\nEPD"
+  },
+  "7b71ef8443ec504d07d754d1997446519b07b51005aa146f3e29be21d4a0f049": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH3931066866921859918\r\nS\r\nBergquelle Getränke AG\r\n\r\n\r\n1201\r\nGenève\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n638.24\r\nCHF\r\nS\r\nSara Keller\r\n\r\n\r\n1003\r\nLausanne\r\nCH\r\nQRR\r\n247269794343554726831586291\r\n\r\nEPD"
+  },
+  "7d8b9d9a7a92b3f74e58573501d5b97e067e5879d82425a89019ebaabe3603f2": {
+   "task": "qr",
+   "output": null
+  },
+  "7d9d5534e149eaedd67611ce1764549dd8321e8983ecf1409b0c1852635df16b": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH7230005623915349177\r\nS\r\nMuster AG\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1355.32\r\nCHF\r\nS\r\nDavid Steiner\r\n\r\n\r\n9000\r\nSt. Gallen\r\nCH\r\nQRR\r\n091329924613809133347625797\r\n\r\nEPD"
+  },
+  "801239d1b557055a9fa3fce743191e12b8510ef651af681757ff34f0c8e5fa37": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH6630988572265860582\r\nS\r\nLimmat Druck GmbH\r\n\r\n\r\n7000\r\nChur\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n5971.31\r\nCHF\r\nS\r\nMia Schmid\r\n\r\n\r\n1003\r\nLausanne\r\nCH\r\nQRR\r\n000377131035408404396051058\r\n\r\nEPD"
+  },
+  "80f6820b609c6e562757f6e688dd756cfdf9240c41313c26406c7bd6db94d6e1": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH2131162634260783886\r\nS\r\nPilatus Software AG\r\n\r\n\r\n9000\r\nSt. Gallen\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n250.70\r\nCHF\r\nS\r\nLuca Meier\r\n\r\n\r\n1201\r\nGenève\r\nCH\r\nQRR\r\n323907021881517064123754503\r\n\r\nEPD"
+  },
+  "8144dbb5a3bc8e65717e6812a929e94ff568b9e846138d8f193cc65b3854662b": {
+   "task": "qr",
+   "output": null
+  },
+  "81bdc006cb13307e6ee9ffd1e4c7a85304175bd4e9377c4d1e92f2d7821f02b0": {
+   "task": "qr",
+   "output": null
+  },
+  "83b351c6a2ff93084fd8765ba7ba8f2daae4faa74d317e9577681dc6f3eb5f03": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH1730014391482017089\r\nS\r\nBergquelle Getränke AG\r\n\r\n\r\n4051\r\nBasel\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n8.73\r\nCHF\r\nS\r\nElias Huber\r\n\r\n\r\n6003\r\nLuzern\r\nCH\r\nQRR\r\n203761611520927998323660809\r\n\r\nEPD"
+  },
+  "861d9819fe0b84c868d5e1eeb1b1fc3e368285ea055137a8f1218056b015e134": {
+   "task": "qr",
+   "output": null
+  },
+  "89b697510f9c671a96a94061b50dbd5647c07f9141c4533313ba1de2f2250588": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH6630988572265860582\r\nS\r\nLimmat Druck GmbH\r\n\r\n\r\n7000\r\nChur\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n5971.31\r\nCHF\r\nS\r\nMia Schmid\r\n\r\n\r\n1003\r\nLausanne\r\nCH\r\nQRR\r\n000377131035408404396051058\r\n\r\nEPD"
+  },
+  "8a6d310a018f6b05dbdc8ae74731d93d4dee191bba5e7417344d8bc557a9a0b1": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH9031040369534806361\r\nS\r\nRhein Elektro GmbH\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n7673.21\r\nCHF\r\nS\r\nLuca Meier\r\n\r\n\r\n7000\r\nChur\r\nCH\r\nQRR\r\n180311976286307464166549653\r\n\r\nEPD"
+  },
+  "8e60112e85cbeb87c0f5348a5b623e27dc3027ac5444b6e5d5bca9b9913fe557": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH2131162634260783886\r\nS\r\nPilatus Software AG\r\n\r\n\r\n9000\r\nSt. Gallen\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n250.70\r\nCHF\r\nS\r\nLuca Meier\r\n\r\n\r\n1201\r\nGenève\r\nCH\r\nQRR\r\n323907021881517064123754503\r\n\r\nEPD"
+  },
+  "8e9a72faeffb1d3f894b8d3a5afd6e37eddc4262bb3aebc49e22b713ae7da4d1": {
+   "task": "qr",
+   "output": null
+  },
+  "963f23a9b0d0dcde3affea3807a1538d4a3259badc0c7676ec0fbc9c8bb2496c": {
+   "task": "qr",
+   "output": null
+  },
+  "998eda798c7b36155fcd604188c7cac1dfaa93053ac05bf0adcdb63535077767": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH7931070482794718246\r\nS\r\nMuster AG\r\n\r\n\r\n5000\r\nAarau\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n6273.26\r\nCHF\r\nS\r\nDavid Steiner\r\n\r\n\r\n9000\r\nSt. Gallen\r\nCH\r\nQRR\r\n795687582026136708542947678\r\n\r\nEPD"
+  },
+  "9ae774668aa05551b8386826071a077029c7b5624cdbfb70942a519fad743fd2": {
+   "task": "qr",
+   "output": null
+  },
+  "9b3486fe4c13833ff773cd4800350f5c3f70243b7cbe76a57899d1da621feeaa": {
+   "task": "qr",
+   "output": null
+  },
+  "9b4914b32a5eb48178cf829459e6da1a19124064ddca0b123a40298b24d4097d": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH0331811372806987941\r\nS\r\nJura Uhren AG\r\n\r\n\r\n6900\r\nLugano\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n344.79\r\nCHF\r\nS\r\nLuca Meier\r\n\r\n\r\n6003\r\nLuzern\r\nCH\r\nQRR\r\n932848844228067720154206018\r\n\r\nEPD"
+  },
+  "9b58cefaee634bdbbd8cd3b1f954c4ca216256d50bab3682634c11104eff40cc": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH1130242054224647058\r\nS\r\nMuster AG\r\n\r\n\r\n6003\r\nLuzern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1021.58\r\nCHF\r\nS\r\nAnna Beispiel\r\n\r\n\r\n5000\r\nAarau\r\nCH\r\nQRR\r\n603891876919971062491081580\r\n\r\nEPD"
+  },
+  "9e7335357ad905c3ff678c6ab7460c56c8b76c6b1afeece080a8deb357ea8e04": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH0431495838939354273\r\nS\r\nLötschberg Transport AG\r\n\r\n\r\n1003\r\nLausanne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n66.09\r\nCHF\r\nS\r\nLaura Fischer\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\nQRR\r\n559790489981523866756096362\r\n\r\nEPD"
+  },
+  "9ec2b52d8ed34b8632bceba001a0d0d0a479a9e6c9f23409d3e464bfe722b584": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH5830349115200437191\r\nS\r\nPilatus Software AG\r\n\r\n\r\n3000\r\nBern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1116.65\r\nCHF\r\nS\r\nTim Graf\r\n\r\n\r\n7000\r\nChur\r\nCH\r\nQRR\r\n070366767797213808361796502\r\n\r\nEPD"
+  },
+  "9f2f6ea83bfb28fe5a0ca12211cac1da1c5edfc637b1e4629b0459ff695acdbf": {
+   "task": "qr",
+   "output": null
+  },
+  "9f37850b4c0672193d32bca608c5774a9cb73a7623a84525ac5021de79200bdb": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH8830312335890089575\r\nS\r\nSäntis Holzbau AG\r\n\r\n\r\n1201\r\nGenève\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n19.24\r\nCHF\r\nS\r\nLuca Meier\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\nQRR\r\n415172968855826484701838682\r\n\r\nEPD"
+  },
+  "9fe91b6025417b151daa7a3c4cb1253adfac5d31665f50fb323223500607873d": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH6930399206658595864\r\nS\r\nMuster AG\r\n\r\n\r\n3000\r\nBern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n8602.53\r\nCHF\r\nS\r\nLea Brunner\r\n\r\n\r\n4051\r\nBasel\r\nCH\r\nQRR\r\n299652718700930567216695110\r\n\r\nEPD"
+  },
+  "a148cf590d0cdc34298408579087653585e7b256fa548a7927f9fbafe1307b35": {
+   "task": "qr",
+   "output": null
+  },
+  "a2e297d370df5095e63a53402b4eebd8ea15797bb293555e29cfbc293b976fb7": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH6930399206658595864\r\nS\r\nMuster AG\r\n\r\n\r\n3000\r\nBern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n8602.53\r\nCHF\r\nS\r\nLea Brunner\r\n\r\n\r\n4051\r\nBasel\r\nCH\r\nQRR\r\n299652718700930567216695110\r\n\r\nEPD"
+  },
+  "a34ef944a3f02bbb65c25f57986cb5ba6c6bdb373449265d43cef52014fc6aff": {
+   "task": "qr",
+   "output": null
+  },
+  "a3cf54f84eb06bc62877de283bb6227e72f0310b2c907e3d3bbd9b665f396aec": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH8830767611782920941\r\nS\r\nMuster AG\r\n\r\n\r\n6003\r\nLuzern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n96.80\r\nCHF\r\nS\r\nSara Keller\r\n\r\n\r\n6900\r\nLugano\r\nCH\r\nQRR\r\n368209872600402057099749643\r\n\r\nEPD"
+  },
+  "a6ff26838a0c16fe611dd5231c0a7df89cb8eac55dc36fdb83e7ebf3f558ee55": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH5930202616057398079\r\nS\r\nRigi Gartenbau GmbH\r\n\r\n\r\n8000\r\nZürich\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1356.79\r\nCHF\r\nS\r\nNoah Frei\r\n\r\n\r\n8400\r\nWinterthur\r\nCH\r\nQRR\r\n900247151542675674260103364\r\n\r\nEPD"
+  },
+  "a8874fd94564d40361f74efaee8a0a4cff3a0e8ce06cc8e0aadd658069ffe4f5": {
+   "task": "qr",
+   "output": null
+  },
+  "aa5ff9a71f292d7f317dca7136860a50000de5b3b6aa5894f715f7c43178caf8": {
+   "task": "qr",
+   "output": null
+  },
+  "b10399f9f8ef07a182cc7d41babc9ad8a41bab15abae70a4a8dae1108834a632": {
+   "task": "qr",
+   "output": null
+  },
+  "b56555e4b6939a9d734e2b34c06b77bd87f793d10943a84507d426628d554691": {
+   "task": "qr",
+   "output": null
+  },
+  "ba38f1569ef9e69c5585de21d43b47ecf491cf3432dd91024563e7b9adb6ed94": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH0331811372806987941\r\nS\r\nJura Uhren AG\r\n\r\n\r\n6900\r\nLugano\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n344.79\r\nCHF\r\nS\r\nLuca Meier\r\n\r\n\r\n6003\r\nLuzern\r\nCH\r\nQRR\r\n932848844228067720154206018\r\n\r\nEPD"
+  },
+  "bddfab374441125935ecfe7165952189467fdae21e28a0b5888f02fa192e9e57": {
+   "task": "qr",
+   "output": null
+  },
+  "bfa9fe59efb312464b5d7c6560873a7a935da4404fa64623c26ec045991837a1": {
+   "task": "qr",
+   "output": null
+  },
+  "c07ac78ac722dfbfa899ee859a00f1a401fefee99719407b7b243db4d17c593b": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH9131059775832021026\r\nS\r\nLimmat Druck GmbH\r\n\r\n\r\n1201\r\nGenève\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n8319.76\r\nCHF\r\nS\r\nLea Brunner\r\n\r\n\r\n6003\r\nLuzern\r\nCH\r\nQRR\r\n054462361666677652728894923\r\n\r\nEPD"
+  },
+  "c197627198a51d2e21a8eac593ba7c02f2343460da224b0b770215b31baf9aed": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH4630942559136609341\r\nS\r\nLötschberg Transport AG\r\n\r\n\r\n5000\r\nAarau\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1445.90\r\nCHF\r\nS\r\nLea Brunner\r\n\r\n\r\n9000\r\nSt. Gallen\r\nCH\r\nQRR\r\n753406874141940985868889463\r\n\r\nEPD"
+  },
+  "c1ea63b40fc827b5d961550efdae26c9b9fcf915ababd28ea4321c314e5299c6": {
+   "task": "qr",
+   "output": null
+  },
+  "c22886dd162a559de2c630b0609f74d1cd4521ca4e96ff2c0dc72f93e2dd57b9": {
+   "task": "qr",
+   "output": null
+  },
+  "c31ec7276923f4dd59bc79b5e68b822b68c02ed38ea708b644a65a398e43e7fe": {
+   "task": "qr",
+   "output": null
+  },
+  "c463587a31bc85b213f52bf5c48d4fe9fec2e1a5fb777e31a91a303722f7fdf5": {
+   "task": "qr",
+   "output": null
+  },
+  "c898883f23b5b9e6380c6406f36570bafd9b8527588226acec29149470506467": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH7931070482794718246\r\nS\r\nMuster AG\r\n\r\n\r\n5000\r\nAarau\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n6273.26\r\nCHF\r\nS\r\nDavid Steiner\r\n\r\n\r\n9000\r\nSt. Gallen\r\nCH\r\nQRR\r\n795687582026136708542947678\r\n\r\nEPD"
+  },
+  "c9a70a7ef96a30f0d799e57905497a52b85ec88db521ff0c0234f9caa48359df": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH0431495838939354273\r\nS\r\nLötschberg Transport AG\r\n\r\n\r\n1003\r\nLausanne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n66.09\r\nCHF\r\nS\r\nLaura Fischer\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\nQRR\r\n559790489981523866756096362\r\n\r\nEPD"
+  },
+  "ca2a40e88d608538ea0a627b0ba33eb616cd16ed0b954f23444522f549a288a8": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH7931070482794718246\r\nS\r\nMuster AG\r\n\r\n\r\n5000\r\nAarau\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n6273.26\r\nCHF\r\nS\r\nDavid Steiner\r\n\r\n\r\n9000\r\nSt. Gallen\r\nCH\r\nQRR\r\n795687582026136708542947678\r\n\r\nEPD"
+  },
+  "ca5c847ff580c1db29e2174337cfaa6ec5afcec24055920cc87a934e7910719c": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH1130242054224647058\r\nS\r\nMuster AG\r\n\r\n\r\n6003\r\nLuzern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n1021.58\r\nCHF\r\nS\r\nAnna Beispiel\r\n\r\n\r\n5000\r\nAarau\r\nCH\r\nQRR\r\n603891876919971062491081580\r\n\r\nEPD"
+  },
+  "cc65f04bac0c0c64dd0888d4d66b37326889ef7dcdd6d818dccf545ef3074ff7": {
+   "task": "qr",
+   "output": null
+  },
+  "ce1ed7b3816bd7322a15529f6f71234d7ffd81c35df4f17f363e6f80fa9bc45b": {
+   "task": "qr",
+   "output": null
+  },
+  "ce2d45344ec5f07210d89d00fd8d9caf56feb03a6efc940c0d264c94bc50f9c6": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH8830698255564810364\r\nS\r\nLimmat Druck GmbH\r\n\r\n\r\n1003\r\nLausanne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n2062.04\r\nCHF\r\nS\r\nLea Brunner\r\n\r\n\r\n1003\r\nLausanne\r\nCH\r\nQRR\r\n903507734284538678836162080\r\n\r\nEPD"
+  },
+  "cec82fa50a6b6fe0017b787ef156faac60df7e8aca8d5d4917049cf3f076d03a": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH5430843023072533995\r\nS\r\nAare Reinigung GmbH\r\n\r\n\r\n8400\r\nWinterthur\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n61.92\r\nCHF\r\nS\r\nLuca Meier\r\n\r\n\r\n8000\r\nZürich\r\nCH\r\nQRR\r\n582448400255557991911744420\r\n\r\nEPD"
+  },
+  "d4ccf4b6d5369e4d2b6315f6d7f874d368f829521daec5d9485865077eb4826b": {
+   "task": "qr",
+   "output": null
+  },
+  "d54e108e0fde950b15a676b72b6f2840bd142e4c9e50e5e8f48341fb4c05dd95": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH9131059775832021026\r\nS\r\nLimmat Druck GmbH\r\n\r\n\r\n1201\r\nGenève\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n8319.76\r\nCHF\r\nS\r\nLea Brunner\r\n\r\n\r\n6003\r\nLuzern\r\nCH\r\nQRR\r\n054462361666677652728894923\r\n\r\nEPD"
+  },
+  "da423cea4a9b2fb58b83c0b87b95d17d0fd9f7f1f89d6232b0911d150e563bc8": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH3931066866921859918\r\nS\r\nBergquelle Getränke AG\r\n\r\n\r\n1201\r\nGenève\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n638.24\r\nCHF\r\nS\r\nSara Keller\r\n\r\n\r\n1003\r\nLausanne\r\nCH\r\nQRR\r\n247269794343554726831586291\r\n\r\nEPD"
+  },
+  "dbef9ee28c3695f60b2c3aaab3189ddfb2c319d516b971c179e4eabcc7782a23": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH7731400211371218599\r\nS\r\nRigi Gartenbau GmbH\r\n\r\n\r\n3000\r\nBern\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n2487.84\r\nCHF\r\nS\r\nNoah Frei\r\n\r\n\r\n8000\r\nZürich\r\nCH\r\nQRR\r\n499585723540849903177154970\r\n\r\nEPD"
+  },
+  "dce90c7aa52ece20afb9573f8bf07fdcfc10fd77ea3df4f63842ac94853ae266": {
+   "task": "qr",
+   "output": null
+  },
+  "df70569bd095773a0839be1a7e668b91595d1ddde540d92d17bbddaf8fd76ab3": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH0331811372806987941\r\nS\r\nJura Uhren AG\r\n\r\n\r\n6900\r\nLugano\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n344.79\r\nCHF\r\nS\r\nLuca Meier\r\n\r\n\r\n6003\r\nLuzern\r\nCH\r\nQRR\r\n932848844228067720154206018\r\n\r\nEPD"
+  },
+  "e15158d57245410938110f1b5c8b8313f1b5147ceadccdd6bb1e5f738020510b": {
+   "task": "qr",
+   "output": null
+  },
+  "e4b7e22095a49a55fb9e6ec804e86c12c399a9bb835f04e6d0e877b66d0a8d55": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH5430843023072533995\r\nS\r\nAare Reinigung GmbH\r\n\r\n\r\n8400\r\nWinterthur\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n61.92\r\nCHF\r\nS\r\nLuca Meier\r\n\r\n\r\n8000\r\nZürich\r\nCH\r\nQRR\r\n582448400255557991911744420\r\n\r\nEPD"
+  },
+  "e7cbd10a96171e804c52f0e5d956d65c86118fd93319548b23982ea117f491d3": {
+   "task": "qr",
+   "output": null
+  },
+  "eac4e59c123ff18414ea093bb8395b3e9ed369a778e20030a5164aa20292b18a": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH4131102160160960542\r\nS\r\nSeeblick Treuhand AG\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n77.72\r\nCHF\r\nS\r\nNina Baumann\r\n\r\n\r\n6900\r\nLugano\r\nCH\r\nQRR\r\n977306549137692144006175438\r\n\r\nEPD"
+  },
+  "eb96a704e2ef8ca98226e3e34d8f281ede850c62ef19cafad806b057a4e53792": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH0431495838939354273\r\nS\r\nLötschberg Transport AG\r\n\r\n\r\n1003\r\nLausanne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n66.09\r\nCHF\r\nS\r\nLaura Fischer\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\nQRR\r\n559790489981523866756096362\r\n\r\nEPD"
+  },
+  "ec3f070a5586cecb8726caac3446a96ae12c369b7f15899d570f04d9e16d8c5b": {
+   "task": "qr",
+   "output": null
+  },
+  "ec5d31fbe0de4360f515a7b76241cc5d7cdb7d8e27513953ee36d9f0fb48dec1": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH9031040369534806361\r\nS\r\nRhein Elektro GmbH\r\n\r\n\r\n2502\r\nBiel/Bienne\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n7673.21\r\nCHF\r\nS\r\nLuca Meier\r\n\r\n\r\n7000\r\nChur\r\nCH\r\nQRR\r\n180311976286307464166549653\r\n\r\nEPD"
+  },
+  "edbd81c2cf88bbdffe2c179b5f7022ce5878d296883fb8c791fc43eeb81add95": {
+   "task": "qr",
+   "output": null
+  },
+  "f2ca1532c34d8bd718504e44e2d3a20e4bd11b2bb5d12cb5bb848ca5cb9cad66": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH0830566427180050416\r\nS\r\nLimmat Druck GmbH\r\n\r\n\r\n5000\r\nAarau\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n5421.97\r\nCHF\r\nS\r\nLea Brunner\r\n\r\n\r\n8000\r\nZürich\r\nCH\r\nQRR\r\n073889485390558571497442782\r\n\r\nEPD"
+  },
+  "f4d089efd518a57f8d51473618fc298445b8ea99617a02fa13a62f9a8b88d685": {
+   "task": "qr",
+   "output": null
+  },
+  "f6ff5cd1dd36c8ee223e22727fa68156185aeb2decb00025e74da4eb70e57907": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH4730439900872545486\r\nS\r\nLimmat Druck GmbH\r\n\r\n\r\n4051\r\nBasel\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n6163.75\r\nCHF\r\nS\r\nNina Baumann\r\n\r\n\r\n6900\r\nLugano\r\nCH\r\nQRR\r\n824512857872884732528718758\r\n\r\nEPD"
+  },
+  "f79f3e7830ecfa5c4d45ca54b5ac30437188f0b98e88bc1931b62e266b8dc2d3": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH9530057192804240236\r\nS\r\nSeeblick Treuhand AG\r\n\r\n\r\n8400\r\nWinterthur\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n87.83\r\nCHF\r\nS\r\nLuca Meier\r\n\r\n\r\n8400\r\nWinterthur\r\nCH\r\nQRR\r\n346080389932435043640384092\r\n\r\nEPD"
+  },
+  "f9fdfa043a15928b7ffcc4bfa73729a825f95af11e9313dec93ab90152fd1972": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH6630988572265860582\r\nS\r\nLimmat Druck GmbH\r\n\r\n\r\n7000\r\nChur\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n5971.31\r\nCHF\r\nS\r\nMia Schmid\r\n\r\n\r\n1003\r\nLausanne\r\nCH\r\nQRR\r\n000377131035408404396051058\r\n\r\nEPD"
+  },
+  "fcf37b04139d882f7f58f0d58394de632baa3e75b608577c4ae8be03382eaf3a": {
+   "task": "qr",
+   "output": null
+  },
+  "fdcd15e26bc9d910cd105954d1d9639f4c48f3e2814e4e2f421fa21c4f58ff86": {
+   "task": "qr",
+   "output": null
+  },
+  "ff231b75e51833852fff70c987f0c45a89bc3273baf1ea91e0484ca0cd64180d": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH1730014391482017089\r\nS\r\nBergquelle Getränke AG\r\n\r\n\r\n4051\r\nBasel\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n8.73\r\nCHF\r\nS\r\nElias Huber\r\n\r\n\r\n6003\r\nLuzern\r\nCH\r\nQRR\r\n203761611520927998323660809\r\n\r\nEPD"
+  },
+  "ff58056de9962a619b0fb0a88d0be1173f222707d0e0b0d94d025338433b4a17": {
+   "task": "qr",
+   "output": "SPC\r\n0200\r\n1\r\nCH4730439900872545486\r\nS\r\nLimmat Druck GmbH\r\n\r\n\r\n4051\r\nBasel\r\nCH\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n6163.75\r\nCHF\r\nS\r\nNina Baumann\r\n\r\n\r\n6900\r\nLugano\r\nCH\r\nQRR\r\n824512857872884732528718758\r\n\r\nEPD"
+  }
+ }
+}

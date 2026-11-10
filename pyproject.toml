@@ -20,8 +20,14 @@ books = [
     "statsmodels>=0.14",
     "pillow>=10.0",
     "holidays>=0.50",
+    "opencv-python-headless>=4.8",
+    "qrbill>=1.1",
+    "qrcode[pil]>=7.4",
+    "rapidocr-onnxruntime==1.4.4",   # the OCR recordings are keyed on this version
     "jupyter>=1.0",
 ]
+# recording Claude answers live; replay needs neither
+llm = ["anthropic>=1.0", "keyring>=24"]
 # the deep-learning chapters; on CI and laptops the CPU wheel is enough:
 #   pip install torch --index-url https://download.pytorch.org/whl/cpu
 dl = ["torch>=2.2"]

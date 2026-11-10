@@ -1,0 +1,2066 @@
+{
+ "note": "Recorded answers, keyed by the SHA-256 of each request (ds_toolbox.llm).",
+ "entries": {
+  "021fc524d876d871e3da5997f03fb3686c232daf6b7487d8fbac6de4e6838cf6": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1442,
+   "output_tokens": 563,
+   "output": {
+    "iban": "CH7731400211371218599",
+    "amount": "2487.84",
+    "reference": "499585723540849903177154970",
+    "creditor_name": "Rigi Gartenbau GmbH",
+    "creditor_city": "Bern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "0806f9290fbd69fb96b7ac606f8fc1b8bec2f73cca9a6532c645069f73244e7f": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1300,
+   "output_tokens": 802,
+   "output": {
+    "iban": "CH5830349115200437191",
+    "amount": "1116.65",
+    "reference": "070366767797213808261796502",
+    "creditor_name": "Platus Software AG",
+    "creditor_city": "Bern",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "09e31efdcac938ec11b56e801cc64c5b8e9de2344826b7f9c674bb7a38d074b8": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1435,
+   "output_tokens": 502,
+   "output": {
+    "iban": "CH5430843023072533995",
+    "amount": "61.92",
+    "reference": "582448400255557991911744420",
+    "creditor_name": "Aare Reinigung GmbH",
+    "creditor_city": "Winterthur",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "0a6eb3ea9d4935ed2f379c5973d147eae11e2ab11be90fa5dfb9f4447e67067f": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1333,
+   "output_tokens": 957,
+   "output": {
+    "iban": "",
+    "amount": "",
+    "reference": "247269794343554726831586291",
+    "creditor_name": "Bergquelle Getränke AG",
+    "creditor_city": "Genève",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "0d661e0417d8d14c738eae2ee030da6d2092d369a00ada7035a0ba84a3f32075": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1417,
+   "output_tokens": 86,
+   "output": {
+    "iban": "CH7931070482794718246",
+    "amount": "6273.26",
+    "reference": "795687582026136708542947678",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Aarau",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "0ed267bde7982a8e2f482c14685cfce84520308a596402c025a63cb984f928c8": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1442,
+   "output_tokens": 100,
+   "output": {
+    "iban": "CH3431227289330817305",
+    "amount": "16684.40",
+    "reference": "204230976589187492869595892",
+    "creditor_name": "Lötschberg Transport AG",
+    "creditor_city": "Biel/Bienne",
+    "verdict": "mismatch",
+    "mismatched_fields": [
+     "amount"
+    ]
+   }
+  },
+  "0f147101c5d82459761e5136b3f9eb2f91c7117ee615d9f317372b8e73ca9b2d": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1424,
+   "output_tokens": 90,
+   "output": {
+    "iban": "CH7230005623915349177",
+    "amount": "1355.32",
+    "reference": "091329924613809133347625797",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Biel/Bienne",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "121219b2f3ade87de90d6b8481681319d274a64f4a1f30b17549e04f53948bf8": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1430,
+   "output_tokens": 213,
+   "output": {
+    "iban": "CH1730014391482017089",
+    "amount": "8.73",
+    "reference": "203761611520927998323660809",
+    "creditor_name": "Bergquelle Getränke AG",
+    "creditor_city": "Basel",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "161e80c106dfab6ed106ce258b793f6db9acd486af54155fef2064542aeeaeef": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 971,
+   "output_tokens": 188,
+   "output": {
+    "iban": "",
+    "amount": "62.92",
+    "reference": "",
+    "creditor_name": "",
+    "creditor_city": "",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "1684f8aa5948ce3450d6449a31feeaa16a37dbead78a4ccfd1caac0302c6a495": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1424,
+   "output_tokens": 1207,
+   "output": {
+    "iban": "CH0331811372806987941",
+    "amount": "344.79",
+    "reference": "932848844228067720154206018",
+    "creditor_name": "Jura Uhren AG",
+    "creditor_city": "Lugano",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "16bc9bd503084e52291bdc0b2d9f2a7594835f19382b4b87041d1189fbcddcc2": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1305,
+   "output_tokens": 599,
+   "output": {
+    "iban": "CH3431227289330817305",
+    "amount": "",
+    "reference": "",
+    "creditor_name": "Lötschberg Transport AG",
+    "creditor_city": "Biel/Bienne",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "19f2414bdf5dba18e7a6a713ec3689e6a9f559005027e479fe1720f788bfa5bb": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1422,
+   "output_tokens": 90,
+   "output": {
+    "iban": "CH8331679588006893576",
+    "amount": "7898.37",
+    "reference": "086609243044054375968592978",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Biel/Bienne",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "1b0e1c7c1d8bac475d29a3446a36baa1c8f2f33b349921b5299dcdd9750500e6": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 886,
+   "output_tokens": 200,
+   "output": {
+    "iban": "",
+    "amount": "3284.60",
+    "reference": "",
+    "creditor_name": "",
+    "creditor_city": "",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "20a6559b5fcf3fb433e441391ced7ab6923c52c57346aa1c4866cd8a793de7f9": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1434,
+   "output_tokens": 92,
+   "output": {
+    "iban": "CH4630942559136609341",
+    "amount": "1445.90",
+    "reference": "753406874141940985868889463",
+    "creditor_name": "Lötschberg Transport AG",
+    "creditor_city": "Aarau",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "20d367961309106815ea94f99985ef7eb42dbea8d0ada5a8f4c200ccdfea37ed": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1418,
+   "output_tokens": 874,
+   "output": {
+    "iban": "CH1130242054224647058",
+    "amount": "1021.58",
+    "reference": "603891876919971062491081580",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Luzern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "216bfb5dc209a7df38d5880e534d8eea83f18006ac25e555b81e804e84f6693d": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1417,
+   "output_tokens": 168,
+   "output": {
+    "iban": "CH7730248506364128715",
+    "amount": "5294.91",
+    "reference": "142377381026865009144849844",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Luzern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "221aefbba4cfadc739575cc57cf7dcb9a924dcccd107f9a27a4b308b7e24b26f": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1421,
+   "output_tokens": 90,
+   "output": {
+    "iban": "CH8331679588006893576",
+    "amount": "7898.37",
+    "reference": "086609243044054375968592978",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Biel/Bienne",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "22d26c44f8835041d522e9e6bf8538877c500b34bd1c49735e0b37490f089eb1": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1313,
+   "output_tokens": 303,
+   "output": {
+    "iban": "CH8830767611782920941",
+    "amount": "96.80",
+    "reference": "368209872600402057099749643",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Luzern",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "241e5b59f8b3e39d89f33f0909897d38567700da09dafce125beda9fd2e35be3": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 888,
+   "output_tokens": 236,
+   "output": {
+    "iban": "",
+    "amount": "",
+    "reference": "",
+    "creditor_name": "",
+    "creditor_city": "",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "255c59cffb3ec4c39b29ff220523be565267d1c01cefe3592a1ecf509f077863": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1428,
+   "output_tokens": 238,
+   "output": {
+    "iban": "CH5831597505847572982",
+    "amount": "50.13",
+    "reference": "274665906707058919346631416",
+    "creditor_name": "Lötschberg Transport AG",
+    "creditor_city": "Lugano",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "2a2e838d73c4e27b5c2d07d79aed9d07f0319998bf7f30b5b5d7c03ebefd647f": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1433,
+   "output_tokens": 90,
+   "output": {
+    "iban": "CH8830312335890089575",
+    "amount": "19.24",
+    "reference": "415172968855826484701838682",
+    "creditor_name": "Säntis Holzbau AG",
+    "creditor_city": "Genève",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "2af2499241c275e9a99eae11041f2c5c5d0470c61124213d00fba8d90790d81a": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1435,
+   "output_tokens": 201,
+   "output": {
+    "iban": "CH5431812629812042217",
+    "amount": "5421.97",
+    "reference": "073889485390558571497442782",
+    "creditor_name": "Limmat Druck GmbH",
+    "creditor_city": "Aarau",
+    "verdict": "mismatch",
+    "mismatched_fields": [
+     "iban"
+    ]
+   }
+  },
+  "2c55e7ad64aa756ae2ce913510173b683a8ab8aa813c0f240eed8780c94c022f": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1432,
+   "output_tokens": 91,
+   "output": {
+    "iban": "CH4730439900872545486",
+    "amount": "6163.75",
+    "reference": "824512857872884732528718758",
+    "creditor_name": "Limmat Druck GmbH",
+    "creditor_city": "Basel",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "2cbe780b1c6022338c72dd7daa81a6000d38482a04a83235607a8ee198ebf798": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1436,
+   "output_tokens": 92,
+   "output": {
+    "iban": "CH4630942559136609341",
+    "amount": "1445.90",
+    "reference": "753406874141940985868889463",
+    "creditor_name": "Lötschberg Transport AG",
+    "creditor_city": "Aarau",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "2dd78b8c9178535f62a4615f371135f93dad0d8c862e33f68886c1bb3fa68e1d": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1413,
+   "output_tokens": 85,
+   "output": {
+    "iban": "CH6930399206658595864",
+    "amount": "8602.53",
+    "reference": "299652718700930567216695110",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Bern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "31086bd984e82a322e3cd1c0c31f07e89006bdbef0d1df97558ad30d615710d0": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1289,
+   "output_tokens": 662,
+   "output": {
+    "iban": "CH0331811372806987941",
+    "amount": "344.79",
+    "reference": "932848844228067720154206018",
+    "creditor_name": "Nura Uhren AG",
+    "creditor_city": "Lugano",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "36adb6347bcf4bc6b9f9ffdb9e9d88d5987635d9e59ec084b86b62436e5e4f8b": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1437,
+   "output_tokens": 502,
+   "output": {
+    "iban": "CH4130293803018303964",
+    "amount": "2062.04",
+    "reference": "903507734284538678836162080",
+    "creditor_name": "Limmat Druck GmbH",
+    "creditor_city": "Lausanne",
+    "verdict": "mismatch",
+    "mismatched_fields": [
+     "iban"
+    ]
+   }
+  },
+  "37ba1e666519e983a467e5d77a834960d0c14d1a635e5fb565e477527ed15d8d": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 909,
+   "output_tokens": 60,
+   "output": {
+    "iban": "",
+    "amount": "76732.30",
+    "reference": "",
+    "creditor_name": "",
+    "creditor_city": "",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "3a5a3cd50760eb4a12cd2d4abdc3519f1b66c1b5c500e7b8328ec76ea76fdadf": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 914,
+   "output_tokens": 185,
+   "output": {
+    "iban": "",
+    "amount": "4688.46",
+    "reference": "",
+    "creditor_name": "",
+    "creditor_city": "",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "3a5efac018c661a26b10758af51aab73e230c7b401b42a8e9337203f822761b3": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1430,
+   "output_tokens": 195,
+   "output": {
+    "iban": "CH8830312335890089575",
+    "amount": "19.24",
+    "reference": "415172968855826484701838682",
+    "creditor_name": "Säntis Holzbau AG",
+    "creditor_city": "Genève",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "3af3e470fa3a4710a402433890160cb4a4c792690570e8f81718d318936896fb": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1410,
+   "output_tokens": 188,
+   "output": {
+    "iban": "CH9631833277956707024",
+    "amount": "13.97",
+    "reference": "867522653392354462745729456",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Bern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "3e82518bf8d2b250dbe34828824eb32142badf5c4eaa56fdc567c468330d8f79": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 945,
+   "output_tokens": 227,
+   "output": {
+    "iban": "",
+    "amount": "",
+    "reference": "",
+    "creditor_name": "",
+    "creditor_city": "",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "3ea8640d9870041f87f311fb04d71d183703be23ca0f33c490418d9b046b569f": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1434,
+   "output_tokens": 91,
+   "output": {
+    "iban": "CH9131059775832021026",
+    "amount": "8319.76",
+    "reference": "054462361666677652728894923",
+    "creditor_name": "Limmat Druck GmbH",
+    "creditor_city": "Genève",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "40d1cb4b18b2a3de4ec0c39702d145bae41e7d4b7323d2ad40932771e4460444": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1284,
+   "output_tokens": 760,
+   "output": {
+    "iban": "CH6930399206658595864",
+    "amount": "",
+    "reference": "299652718700930567216695110",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Bern",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "4266cefaa5360c184fcfcba766a856166481e01555a748f31d30bb1e009258a1": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1444,
+   "output_tokens": 101,
+   "output": {
+    "iban": "CH9031040369534806361",
+    "amount": "76732.10",
+    "reference": "180311976286307464166549653",
+    "creditor_name": "Rhein Elektro GmbH",
+    "creditor_city": "Biel/Bienne",
+    "verdict": "mismatch",
+    "mismatched_fields": [
+     "amount"
+    ]
+   }
+  },
+  "42c0fff182efe79936eadb3c862d12b6b16fd97ac662a5837d4133dc45f22d55": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1429,
+   "output_tokens": 91,
+   "output": {
+    "iban": "CH5831597505847572982",
+    "amount": "50.13",
+    "reference": "274665906707058919346631416",
+    "creditor_name": "Lötschberg Transport AG",
+    "creditor_city": "Lugano",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "4a269eaa31ac87b91db04c551d8ad6038718d2f63b4aaf444fc66af8841fb9e8": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1291,
+   "output_tokens": 1405,
+   "output": {
+    "iban": "",
+    "amount": "19.24",
+    "reference": "415172968855826484701838682",
+    "creditor_name": "Säntis Holzbau AG",
+    "creditor_city": "Genève",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "4b04236a640e6b0375f3536dea21c61a4e2c3c5a0c51455b6da57966639463c7": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1411,
+   "output_tokens": 177,
+   "output": {
+    "iban": "CH9631833277956707024",
+    "amount": "13.97",
+    "reference": "867522653392354462745729456",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Bern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "4c4c86f9908223d86ce3745c968e44e90609114140bd0e862683a61a68acf236": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1424,
+   "output_tokens": 90,
+   "output": {
+    "iban": "CH7230005623915349177",
+    "amount": "1355.32",
+    "reference": "091329924613809133347625797",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Biel/Bienne",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "4c621a522e2a5d98d6fe373074f8e8602d966699e358d2bfc9272178e14a2c59": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1439,
+   "output_tokens": 92,
+   "output": {
+    "iban": "CH0431495838939354273",
+    "amount": "66.09",
+    "reference": "559790489981523866756096362",
+    "creditor_name": "Lötschberg Transport AG",
+    "creditor_city": "Lausanne",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "4cf13b496968f03181de82b59573a4ed74b13bf87c43cf35e60e9567d18d8b66": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 889,
+   "output_tokens": 128,
+   "output": {
+    "iban": "",
+    "amount": "1662.50",
+    "reference": "",
+    "creditor_name": "",
+    "creditor_city": "",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "4d3abd5562361fee283b5444f25eeccbeae27aaca693a0f1b7c8dcc67acd03fe": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1441,
+   "output_tokens": 598,
+   "output": {
+    "iban": "CH4131102160160960542",
+    "amount": "77.72",
+    "reference": "977306549137692144006175438",
+    "creditor_name": "Seeblick Treuhand AG",
+    "creditor_city": "Biel/Bienne",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "4e06ab33c3f5e8c309a189f2c57719304ca9e38e2116b6a13c9176d5e04c397f": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1388,
+   "output_tokens": 84,
+   "output": {
+    "iban": "CH9631833277956707024",
+    "amount": "13.97",
+    "reference": "867522653392354462745729456",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Bern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "4e5d06bd046c6bed504e8eeba2291501c4a066436c92b13f10f62ea98e2a8c65": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1432,
+   "output_tokens": 89,
+   "output": {
+    "iban": "CH5830349115200437191",
+    "amount": "1116.65",
+    "reference": "070366767797213808361796502",
+    "creditor_name": "Pilatus Software AG",
+    "creditor_city": "Bern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "50169f9bb81fe60ef3fe155630d90156cd019b37a43bb09a68ed87d1a74f6d7a": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 885,
+   "output_tokens": 56,
+   "output": {
+    "iban": "",
+    "amount": "",
+    "reference": "",
+    "creditor_name": "",
+    "creditor_city": "",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "505d1e4248af7b2fc89b718c07e8ce9df486d84a64fd90534cb785033c9fdb30": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1444,
+   "output_tokens": 95,
+   "output": {
+    "iban": "CH5930202616057398079",
+    "amount": "1356.79",
+    "reference": "900247151542675674260103364",
+    "creditor_name": "Rigi Gartenbau GmbH",
+    "creditor_city": "Zürich",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "5272b921f148a13af8403d6b8aa94efdc4b3af928bb6f9ba63084ff7f142f0d2": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1434,
+   "output_tokens": 364,
+   "output": {
+    "iban": "CH5331589330414187011",
+    "amount": "5971.31",
+    "reference": "000377131035408404396051058",
+    "creditor_name": "Limmat Druck GmbH",
+    "creditor_city": "Chur",
+    "verdict": "mismatch",
+    "mismatched_fields": [
+     "iban"
+    ]
+   }
+  },
+  "589b272abbe26d7103daba1cd360ef89235303a5eadb1343a5abf3925f45c753": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1435,
+   "output_tokens": 222,
+   "output": {
+    "iban": "CH5431812629812042217",
+    "amount": "5421.97",
+    "reference": "073889485390558571497442782",
+    "creditor_name": "Limmat Druck GmbH",
+    "creditor_city": "Aarau",
+    "verdict": "mismatch",
+    "mismatched_fields": [
+     "iban"
+    ]
+   }
+  },
+  "5aa79e428274bafe1d3b5f462f6d512487968a2268c3edaa08895b4da9a83c46": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1435,
+   "output_tokens": 203,
+   "output": {
+    "iban": "CH5331589330414187011",
+    "amount": "5971.31",
+    "reference": "000377131035408404396051058",
+    "creditor_name": "Limmat Druck GmbH",
+    "creditor_city": "Chur",
+    "verdict": "mismatch",
+    "mismatched_fields": [
+     "iban"
+    ]
+   }
+  },
+  "5d0fafe90fd8c9082bc834fd5196a07a6ab86c3c5a0cef5ca1ed4eb9bd1cbed0": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1435,
+   "output_tokens": 175,
+   "output": {
+    "iban": "CH5430843023072533995",
+    "amount": "61.92",
+    "reference": "582448400255557991911744420",
+    "creditor_name": "Aare Reinigung GmbH",
+    "creditor_city": "Winterthur",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "60fbcbc6e2533702dcd98c3a10f986eba501f52f1fc7917ede23fbabf958f18a": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1283,
+   "output_tokens": 889,
+   "output": {
+    "iban": "CH1130242054224647058",
+    "amount": "",
+    "reference": "603891876919971062491081580",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Luzern",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "64ef6ed590897a0fa5ab1198e3f968be06035c07e4857ea067a5cb51ad3088dd": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 939,
+   "output_tokens": 211,
+   "output": {
+    "iban": "",
+    "amount": "6273.24",
+    "reference": "",
+    "creditor_name": "",
+    "creditor_city": "",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "67d5a88bbc0cc83a85ad348be62389b3c9b52ea02232345a16f3a7d7a03f31e8": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1437,
+   "output_tokens": 345,
+   "output": {
+    "iban": "CH1730014391482017089",
+    "amount": "8.73",
+    "reference": "203761611520927998323660809",
+    "creditor_name": "Bergquelle Getränke AG",
+    "creditor_city": "Basel",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "6a226a9f60321b477e8e5a3c3057131d97e70f1a4442763c24e8de331db5a192": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1391,
+   "output_tokens": 389,
+   "output": {
+    "iban": "CH1130242054224647058",
+    "amount": "1021.58",
+    "reference": "603891876919971062491081580",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Luzern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "6b0a0661cde2b970c1d1a736a03b5512a7b575acf81a4684a7c2ddfa9313ec88": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1432,
+   "output_tokens": 91,
+   "output": {
+    "iban": "CH2131162634260783886",
+    "amount": "250.70",
+    "reference": "323907021881517064123754503",
+    "creditor_name": "Pilatus Software AG",
+    "creditor_city": "St. Gallen",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "6b59a04ef164a86995a5deeaacc059dfbe3d8b235163e96e0276907d3ebb3225": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1416,
+   "output_tokens": 659,
+   "output": {
+    "iban": "CH7931070482794718246",
+    "amount": "6273.26",
+    "reference": "795687582026136708542947678",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Aarau",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "6b73335bd5e0db8c9484c538a934ea25d5a3271b8682b65a741c2975664f25ad": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1438,
+   "output_tokens": 238,
+   "output": {
+    "iban": "CH4130293803018303964",
+    "amount": "2062.04",
+    "reference": "903507734284538678836162080",
+    "creditor_name": "Limmat Druck GmbH",
+    "creditor_city": "Lausanne",
+    "verdict": "mismatch",
+    "mismatched_fields": [
+     "iban"
+    ]
+   }
+  },
+  "6bb096c5895798c225c7f1e4d90c8dae1668f75acf7d06ed0315d1f719750d79": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1438,
+   "output_tokens": 199,
+   "output": {
+    "iban": "CH7731400211371218599",
+    "amount": "2487.84",
+    "reference": "499585723540849903177154970",
+    "creditor_name": "Rigi Gartenbau GmbH",
+    "creditor_city": "Bern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "6ccf8524282c62e9ed02c77c54904e639af9621e20ff1e07b9b79f7bc2cb5e1a": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1442,
+   "output_tokens": 91,
+   "output": {
+    "iban": "CH9131059775832021026",
+    "amount": "8319.76",
+    "reference": "054462361666677652728894923",
+    "creditor_name": "Limmat Druck GmbH",
+    "creditor_city": "Genève",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "6cee1be535e9410c4772dfe407ad4b39aee2403e4f30fe71b0a14d8c81d4d17a": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 912,
+   "output_tokens": 60,
+   "output": {
+    "iban": "",
+    "amount": "1374.54",
+    "reference": "",
+    "creditor_name": "",
+    "creditor_city": "",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "6deb12834d026aacbe7ae89ca8496b237ae2ced7df98145ccb7603fecdfdd5f4": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1205,
+   "output_tokens": 779,
+   "output": {
+    "iban": "CH4330689486037556390",
+    "amount": "1174.58",
+    "reference": "504374903734171018755962863",
+    "creditor_name": "Aare Reinigung GmbH",
+    "creditor_city": "Aarau",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "710e4478ebaa3957134ccc35458300af149b6e77be2b6da04321e573582cb561": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1297,
+   "output_tokens": 728,
+   "output": {
+    "iban": "CH9031040369534806361",
+    "amount": "76732.10",
+    "reference": "180311976204307464164549653",
+    "creditor_name": "Rhein Elektro GmbH",
+    "creditor_city": "Biel/Bienne",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "722b1c7ed3c5d35a8e717c2b6ea4247f3c1e8021c9882b7ee332dc783a3a2cdf": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1431,
+   "output_tokens": 228,
+   "output": {
+    "iban": "CH7931070482794718246",
+    "amount": "6273.26",
+    "reference": "795687582026136708542947678",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Aarau",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "777c706ec2c1c292d30fefb96b3650c11c99b6cf60f4d0d06fc18a735d3ff607": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1415,
+   "output_tokens": 540,
+   "output": {
+    "iban": "CH6930399206658595864",
+    "amount": "8602.53",
+    "reference": "299652718700930567216695110",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Bern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "7b789f5ed763458b17cd250b0b51138d81a78ca1c40c6ea8c07ba706e0a5c756": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 890,
+   "output_tokens": 141,
+   "output": {
+    "iban": "",
+    "amount": "",
+    "reference": "",
+    "creditor_name": "",
+    "creditor_city": "",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "7ccec01f9ede479f81a094d35a256574b90fda3312a3981185cec81f60880479": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1441,
+   "output_tokens": 369,
+   "output": {
+    "iban": "CH7731400211371218599",
+    "amount": "2487.84",
+    "reference": "499585723540849903177154970",
+    "creditor_name": "Rigi Gartenbau GmbH",
+    "creditor_city": "Bern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "83f2d55c16add884dfa5a9855445ab23f36b953ae22c74fa1aab286a5645034f": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1431,
+   "output_tokens": 91,
+   "output": {
+    "iban": "CH4730439900872545486",
+    "amount": "6163.75",
+    "reference": "824512857872884732528718758",
+    "creditor_name": "Limmat Druck GmbH",
+    "creditor_city": "Basel",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "8415ab930d4a758a2ace05c5ef210014a2d5f0f6dbfdb3fe3c86cde62c5e0dd8": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1295,
+   "output_tokens": 768,
+   "output": {
+    "iban": "CH7230005623915349177",
+    "amount": "1355.32",
+    "reference": "091329924613809133347625797",
+    "creditor_name": "Muster AG",
+    "creditor_city": "",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "843f4709571f36e710812eb21e180ea4a66e6fdda76931c6df5222db35c4badd": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1434,
+   "output_tokens": 325,
+   "output": {
+    "iban": "CH9530057192804240236",
+    "amount": "87.83",
+    "reference": "346080389932435043640384092",
+    "creditor_name": "Seeblick Treuhand AG",
+    "creditor_city": "Winterthur",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "8654aae78b5502b44c4992e2ec408db4bbdb1c12665c4596df6a7b3f0be5fd82": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1433,
+   "output_tokens": 93,
+   "output": {
+    "iban": "CH9530057192804240236",
+    "amount": "87.83",
+    "reference": "346080389932435043640384092",
+    "creditor_name": "Seeblick Treuhand AG",
+    "creditor_city": "Winterthur",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "86eaf63acc6a003ce5c7c6340685bb06223ad2036cbff5ab2790941f7735b884": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1439,
+   "output_tokens": 266,
+   "output": {
+    "iban": "CH3931066866921859918",
+    "amount": "638.24",
+    "reference": "247269794343554726831586291",
+    "creditor_name": "Bergquelle Getränke AG",
+    "creditor_city": "Genève",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "876247821d922a2d6f90a8ef2fb096edb0d85f0da9c3d084c896428f7d3a5f7f": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1438,
+   "output_tokens": 303,
+   "output": {
+    "iban": "CH0431495838939354273",
+    "amount": "66.09",
+    "reference": "559790489981523866756096362",
+    "creditor_name": "Lötschberg Transport AG",
+    "creditor_city": "Lausanne",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "87a0e1fcef625cc548feeea51b18f18b56fb3c234d5c375314553f517443d337": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1346,
+   "output_tokens": 843,
+   "output": {
+    "iban": "CH5431812629812042217",
+    "amount": "5421.97",
+    "reference": "073889485390558571497442782",
+    "creditor_name": "Limmat Druck GmbH",
+    "creditor_city": "Aarau",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "88d90fcf71350b2b8c64774d0be38cf5a702330a85673e25fe1f16f3fdabe69a": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1301,
+   "output_tokens": 743,
+   "output": {
+    "iban": "",
+    "amount": "1445.90",
+    "reference": "753406874141940985868889463",
+    "creditor_name": "Litschberg Transport AG",
+    "creditor_city": "Aarau",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "89fa9a90f37231070aef16bc69bef922721ccdc2a6ebce1733763a3ba3062ff5": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 960,
+   "output_tokens": 228,
+   "output": {
+    "iban": "",
+    "amount": "",
+    "reference": "",
+    "creditor_name": "",
+    "creditor_city": "",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "8b37398aa30c38ff575b4a784e1da7e91122c1c6fa386c1f016e60e02db71929": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1413,
+   "output_tokens": 85,
+   "output": {
+    "iban": "CH8830767611782920941",
+    "amount": "96.80",
+    "reference": "368209872600402057099749643",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Luzern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "8b3ea0cbb10fad5c579875e5938d8ed50d0df6f276d5da1ea9c2d6070d834acf": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1430,
+   "output_tokens": 208,
+   "output": {
+    "iban": "CH2131162634260783886",
+    "amount": "250.70",
+    "reference": "323907021881517064123754503",
+    "creditor_name": "Pilatus Software AG",
+    "creditor_city": "St. Gallen",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "8c99ba21484c55ff8f97dfb2a63d1d8492c0caaea3489188ba4f853f50b3aa88": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1435,
+   "output_tokens": 92,
+   "output": {
+    "iban": "CH0431495838939354273",
+    "amount": "66.09",
+    "reference": "559790489981523866756096362",
+    "creditor_name": "Lötschberg Transport AG",
+    "creditor_city": "Lausanne",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "8f8a30771200a104d03f18e95029454e5cfae8041b528ec290cc7045359e6b7f": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1445,
+   "output_tokens": 156,
+   "output": {
+    "iban": "CH9031040369534806361",
+    "amount": "76732.10",
+    "reference": "180311976286307464166549653",
+    "creditor_name": "Rhein Elektro GmbH",
+    "creditor_city": "Biel/Bienne",
+    "verdict": "mismatch",
+    "mismatched_fields": [
+     "amount"
+    ]
+   }
+  },
+  "9143e271bd161ab9d69935c379df6df78da9fdb036a1c6dbc440ddb60ddac845": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1447,
+   "output_tokens": 101,
+   "output": {
+    "iban": "CH9031040369534806361",
+    "amount": "76732.10",
+    "reference": "180311976286307464166549653",
+    "creditor_name": "Rhein Elektro GmbH",
+    "creditor_city": "Biel/Bienne",
+    "verdict": "mismatch",
+    "mismatched_fields": [
+     "amount"
+    ]
+   }
+  },
+  "93ba3b093118f3689a5daca5f0932103566eb29ca90a36600c9d7e2600121512": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1330,
+   "output_tokens": 936,
+   "output": {
+    "iban": "CH4130293803018303964",
+    "amount": "2062.04",
+    "reference": "903507734284538678836162080",
+    "creditor_name": "Lemat Druck GmbH",
+    "creditor_city": "Lausanne",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "95799f3089121b2dae4b7a9af5c2b876bdfdb62544c7f97a1727a88c75c0faf5": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1430,
+   "output_tokens": 187,
+   "output": {
+    "iban": "CH8830312335890089575",
+    "amount": "19.24",
+    "reference": "415172968855826484701838682",
+    "creditor_name": "Säntis Holzbau AG",
+    "creditor_city": "Genève",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "960762f93378335ab0952320ae535e21e8ac81fb61ed27ee28266b6f706f0533": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 909,
+   "output_tokens": 56,
+   "output": {
+    "iban": "",
+    "amount": "",
+    "reference": "",
+    "creditor_name": "",
+    "creditor_city": "",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "a234b1affda7a98c029d18f51e82c37d48b5f9ec1f57292abc315fe4a6f047ca": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1433,
+   "output_tokens": 91,
+   "output": {
+    "iban": "CH4730439900872545486",
+    "amount": "6163.75",
+    "reference": "824512857872884732528718758",
+    "creditor_name": "Limmat Druck GmbH",
+    "creditor_city": "Basel",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "a3206eba14fe1594974053567fd0329de90caf77428625dad75970ec431dc099": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1261,
+   "output_tokens": 731,
+   "output": {
+    "iban": "CH9631833277956707024",
+    "amount": "13.97",
+    "reference": "867522653392354462745729456",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Bern",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "a465f618f55a82d97fd6137402a150121114df8806783f10677fce2c2235b8a9": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1432,
+   "output_tokens": 628,
+   "output": {
+    "iban": "CH5430843023072533995",
+    "amount": "61.92",
+    "reference": "582448400255557991911744420",
+    "creditor_name": "Aare Reinigung GmbH",
+    "creditor_city": "Winterthur",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "a56c96889e70007d92f5e739068d64e42452f195bbfde40b07fc944ed79fa13e": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1237,
+   "output_tokens": 1118,
+   "output": {
+    "iban": "",
+    "amount": "319.76",
+    "reference": "054462361666677652728894923",
+    "creditor_name": "Limmat Druck GmbH",
+    "creditor_city": "Genève",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "a8f7087aeda1d0952b43f3aa96cf4dc5944ef9da4f04c8074183dee37646f607": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1430,
+   "output_tokens": 705,
+   "output": {
+    "iban": "CH2131162634260783886",
+    "amount": "250.70",
+    "reference": "323907021881517064123754503",
+    "creditor_name": "Pilatus Software AG",
+    "creditor_city": "St. Gallen",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "ab3ca1a2c4c6fcba840f85d9cb3949d14114e77a59a9d279eb42ba1b50393eed": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1316,
+   "output_tokens": 915,
+   "output": {
+    "iban": "CH5831597505847572982",
+    "amount": "50.13",
+    "reference": "274665906707058919346631416",
+    "creditor_name": "Lötschberg Transport AG",
+    "creditor_city": "Lugano",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "add4653f326d772b17c288dfa6cd454c7b69a4158c793935a76a79c25e184037": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1437,
+   "output_tokens": 219,
+   "output": {
+    "iban": "CH4130293803018303964",
+    "amount": "2062.04",
+    "reference": "903507734284538678836162080",
+    "creditor_name": "Limmat Druck GmbH",
+    "creditor_city": "Lausanne",
+    "verdict": "mismatch",
+    "mismatched_fields": [
+     "iban"
+    ]
+   }
+  },
+  "af5b547be28820ec54c866309b23ab47d03fa680d8af0050d7e53df2e7ae545c": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1440,
+   "output_tokens": 95,
+   "output": {
+    "iban": "CH5930202616057398079",
+    "amount": "1356.79",
+    "reference": "900247151542675674260103364",
+    "creditor_name": "Rigi Gartenbau GmbH",
+    "creditor_city": "Zürich",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "af73dbd8e2c04a4dbc1e2a0e904e32650bada78c27deb9b502ec2c3e81f9e38a": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1414,
+   "output_tokens": 363,
+   "output": {
+    "iban": "CH8830767611782920941",
+    "amount": "96.80",
+    "reference": "368209872600402057099749643",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Luzern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "b367532d41ca5e33f5bf44e96285b130a6118c1906afe4d46189399eaf9523f0": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1318,
+   "output_tokens": 432,
+   "output": {
+    "iban": "CH1730014391482017089",
+    "amount": "8.73",
+    "reference": "203761611520927998323660809",
+    "creditor_name": "Bergquelle Getränke AG",
+    "creditor_city": "Basel",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "b5bc3cc6d23cbc1fa327a0118be9dded03857486be165758577c3e6e1935b655": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1341,
+   "output_tokens": 961,
+   "output": {
+    "iban": "CH8331679588006893576",
+    "amount": "7898.37",
+    "reference": "086609243044054375968592978",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Biel/Bienne",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "b6892037cb7972f88b61baa8d1cffc8ae4e20827b564f8e4cf084d30aeee1461": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1308,
+   "output_tokens": 840,
+   "output": {
+    "iban": "CH9530057192804240236",
+    "amount": "87.83",
+    "reference": "346080389932435043640384092",
+    "creditor_name": "Seeblick Treuhand AG",
+    "creditor_city": "Winterthur",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "b6f80aca7107d8e845e18fde9d2e9fd73c19ada168acd67465b95913eb9186ac": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1319,
+   "output_tokens": 899,
+   "output": {
+    "iban": "CH2131162634260783886",
+    "amount": "250.70",
+    "reference": "323907021881517064123754503",
+    "creditor_name": "Pilatus Software AG",
+    "creditor_city": "St. Gallen",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "b8fc5cca4abd649c8a315c66b4f23765e3ad1e8be60375fa851912260cf97698": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1440,
+   "output_tokens": 100,
+   "output": {
+    "iban": "CH3431227289330817305",
+    "amount": "16684.40",
+    "reference": "204230976589187492869595892",
+    "creditor_name": "Lötschberg Transport AG",
+    "creditor_city": "Biel/Bienne",
+    "verdict": "mismatch",
+    "mismatched_fields": [
+     "amount"
+    ]
+   }
+  },
+  "ba354d0cf5c413fdbd04f9aea7137e2256e3b9b4ac2c2b3b9790a4fc218c332f": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1433,
+   "output_tokens": 380,
+   "output": {
+    "iban": "CH9131059775832021026",
+    "amount": "8319.76",
+    "reference": "054462361666677652728894923",
+    "creditor_name": "Limmat Druck GmbH",
+    "creditor_city": "Genève",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "bc39005dbf998ebd60ecf9de39e8baa0ad176e2fbb2c003f5a4eb7409523d81d": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1438,
+   "output_tokens": 93,
+   "output": {
+    "iban": "CH9530057192804240236",
+    "amount": "87.83",
+    "reference": "346080389932435043640384092",
+    "creditor_name": "Seeblick Treuhand AG",
+    "creditor_city": "Winterthur",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "be9cbebb412c14ef443eea3aa0b5d391892a38f5a8c3e458fd7ac1aaf0f97ac4": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1329,
+   "output_tokens": 530,
+   "output": {
+    "iban": "CH7731400211371218599",
+    "amount": "2487.84",
+    "reference": "499585723540849903177154970",
+    "creditor_name": "Rigi Gartenbau GmbH",
+    "creditor_city": "Bern",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "bfe79e97b69aaca7af0c365ab67868ea3ad18c59bd9f827cf866a3f98a3a8c1b": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1427,
+   "output_tokens": 89,
+   "output": {
+    "iban": "CH5830349115200437191",
+    "amount": "1116.65",
+    "reference": "070366767797213808361796502",
+    "creditor_name": "Pilatus Software AG",
+    "creditor_city": "Bern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "c28fe040ae5033ce67a32bb6e866099f1050b2233d5b9f5fca4375f5dd114cff": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1421,
+   "output_tokens": 90,
+   "output": {
+    "iban": "CH8331679588006893576",
+    "amount": "7898.37",
+    "reference": "086609243044054375968592978",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Biel/Bienne",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "c45bd4a86f1fe04630d3e208d74e1b0d4e703ab06d1c1bb32f95e1382b301d30": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1313,
+   "output_tokens": 709,
+   "output": {
+    "iban": "CH7931070482794718246",
+    "amount": "6273.26",
+    "reference": "795687582026136708542947678",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Aarau",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "c609a0397bb310be52c39a173a9a52a09c148e15646034b1a6f091342e6e555e": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1271,
+   "output_tokens": 891,
+   "output": {
+    "iban": "CH0431495838939354273",
+    "amount": "66.09",
+    "reference": "559790489981523866756096362",
+    "creditor_name": "Lötschberg Transport AG",
+    "creditor_city": "Lausanne",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "c649f37ff5aabc6a7aa650c35c43e6626f1905042787272f2d7a830c9ba66324": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1346,
+   "output_tokens": 824,
+   "output": {
+    "iban": "",
+    "amount": "77.72",
+    "reference": "977306549137692144006125438",
+    "creditor_name": "Seebick Treuhand AG",
+    "creditor_city": "",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "c6b871de55417a1e9352ea48d822e83e5cc3a3690bd0729a03690d8ca450c662": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1439,
+   "output_tokens": 340,
+   "output": {
+    "iban": "CH4330689486037556390",
+    "amount": "1174.58",
+    "reference": "504374903734171018755962863",
+    "creditor_name": "Aare Reinigung GmbH",
+    "creditor_city": "Aarau",
+    "verdict": "mismatch",
+    "mismatched_fields": [
+     "amount"
+    ]
+   }
+  },
+  "c85af510cc71a5a06db045348f8cd61f619b75946db477e2487c0332c9daecad": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1324,
+   "output_tokens": 957,
+   "output": {
+    "iban": "",
+    "amount": "5971.31",
+    "reference": "000377131035408404396051058",
+    "creditor_name": "Limmat Druck GmbH",
+    "creditor_city": "Chur",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "c958a40573f3465ee1665721a553cc74f2fb5f666e27af364f33e2b830d0c980": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1436,
+   "output_tokens": 97,
+   "output": {
+    "iban": "CH4330689486037556390",
+    "amount": "1174.58",
+    "reference": "504374903734171018755962863",
+    "creditor_name": "Aare Reinigung GmbH",
+    "creditor_city": "Aarau",
+    "verdict": "mismatch",
+    "mismatched_fields": [
+     "amount"
+    ]
+   }
+  },
+  "c9aa93cce2a628755ef72191f0a01206183d9b9632de71d9ff9bb5f4c607e884": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1442,
+   "output_tokens": 391,
+   "output": {
+    "iban": "CH5431812629812042217",
+    "amount": "5421.97",
+    "reference": "073889485390558571497442782",
+    "creditor_name": "Limmat Druck GmbH",
+    "creditor_city": "Aarau",
+    "verdict": "mismatch",
+    "mismatched_fields": [
+     "iban"
+    ]
+   }
+  },
+  "d0bf008225d9c1645a7d34afc5fed0956eb657f09231d2516a4396018a435fc5": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1443,
+   "output_tokens": 95,
+   "output": {
+    "iban": "CH5930202616057398079",
+    "amount": "1356.79",
+    "reference": "900247151542675674260103364",
+    "creditor_name": "Rigi Gartenbau GmbH",
+    "creditor_city": "Zürich",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "d5bb29beafa1e65d95200fedf9666346372435126821c61b7a6bd995a22451a5": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1440,
+   "output_tokens": 253,
+   "output": {
+    "iban": "CH5331589330414187011",
+    "amount": "5971.31",
+    "reference": "000377131035408404396051058",
+    "creditor_name": "Limmat Druck GmbH",
+    "creditor_city": "Chur",
+    "verdict": "mismatch",
+    "mismatched_fields": [
+     "iban"
+    ]
+   }
+  },
+  "d72ff6a88210607efe667ff784b58794c5511a436c600f2e46e91a383875623c": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1429,
+   "output_tokens": 189,
+   "output": {
+    "iban": "CH5830349115200437191",
+    "amount": "1116.65",
+    "reference": "070366767797213808361796502",
+    "creditor_name": "Pilatus Software AG",
+    "creditor_city": "Bern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "d80f09c0e81aaad37eaac0feff68bb393ca2f5cd8c168f77491b7dd1641d20d7": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1429,
+   "output_tokens": 91,
+   "output": {
+    "iban": "CH1730014391482017089",
+    "amount": "8.73",
+    "reference": "203761611520927998323660809",
+    "creditor_name": "Bergquelle Getränke AG",
+    "creditor_city": "Basel",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "da64177df736c9e2b2bd6e7f7067df1c6ed4fe3bd1a0b70429189901aab6c2b7": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1429,
+   "output_tokens": 91,
+   "output": {
+    "iban": "CH5831597505847572982",
+    "amount": "50.13",
+    "reference": "274665906707058919346631416",
+    "creditor_name": "Lötschberg Transport AG",
+    "creditor_city": "Lugano",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "dbb0b357497f675398b549db01052a55cd1ca864a87db85a81ae2d6357eb6215": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1450,
+   "output_tokens": 747,
+   "output": {
+    "iban": "CH4131102160160960542",
+    "amount": "77.72",
+    "reference": "977306549137692144006175438",
+    "creditor_name": "Seeblick Treuhand AG",
+    "creditor_city": "Biel/Bienne",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "dd8bd169d95a647bb048d29bd5642105aa567fc45d2d75afe1e8447d57f7a6f0": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1432,
+   "output_tokens": 91,
+   "output": {
+    "iban": "CH3931066866921859918",
+    "amount": "638.24",
+    "reference": "247269794343554726831586291",
+    "creditor_name": "Bergquelle Getränke AG",
+    "creditor_city": "Genève",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "e163a684b11fc9a84bbb0d384f46934b5cbdf8a299a167ab50d23773ec5f420a": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1271,
+   "output_tokens": 950,
+   "output": {
+    "iban": "CH4730439900872545486",
+    "amount": "",
+    "reference": "824512857872884732528718758",
+    "creditor_name": "Limmat Druck GmbH",
+    "creditor_city": "Basel",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "e4343ec126ead32342da8a41775000d249e024c0a5b2ab3e95af38895ea03bda": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1413,
+   "output_tokens": 172,
+   "output": {
+    "iban": "CH6930399206658595864",
+    "amount": "8602.53",
+    "reference": "299652718700930567216695110",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Bern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "e50d71f0081a426f4d5740dcf09fea27652ded530413b220c08d4ddd119ab63f": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 935,
+   "output_tokens": 59,
+   "output": {
+    "iban": "",
+    "amount": "54.19",
+    "reference": "",
+    "creditor_name": "",
+    "creditor_city": "",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "e66ffdbf6411a2cf305f1d831fd6076ebbd25df0ed7f646fab84b2157b2c36e4": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1270,
+   "output_tokens": 776,
+   "output": {
+    "iban": "CH5430843023072533995",
+    "amount": "61.92",
+    "reference": "582448400255557991911744420",
+    "creditor_name": "Aare Reinigung GmbH",
+    "creditor_city": "",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "e81d7f916fb19d9db7f01f444a004ed670ba3ce07f4d086732c11c9ffa0d3bd2": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1416,
+   "output_tokens": 86,
+   "output": {
+    "iban": "CH7730248506364128715",
+    "amount": "5294.91",
+    "reference": "142377381026865009144849844",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Luzern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "e9b32750539fab6bfaf70bc55fe20cbded1a8f7477f3218f5c6ab516d55ef0d3": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1425,
+   "output_tokens": 90,
+   "output": {
+    "iban": "CH7230005623915349177",
+    "amount": "1355.32",
+    "reference": "091329924613809133347625797",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Biel/Bienne",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "e9ca62261fe87e8a596e850735f1ad3963e6f7692181c74795dce6bbff306d88": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1412,
+   "output_tokens": 85,
+   "output": {
+    "iban": "CH8830767611782920941",
+    "amount": "96.80",
+    "reference": "368209872600402057099749643",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Luzern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "ebac488681cddf239dd4f6be5a350692ecbc771b0f65df98b707e55cde2e232a": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1434,
+   "output_tokens": 229,
+   "output": {
+    "iban": "CH4330689486037556390",
+    "amount": "1174.58",
+    "reference": "504374903734171018755962863",
+    "creditor_name": "Aare Reinigung GmbH",
+    "creditor_city": "Aarau",
+    "verdict": "mismatch",
+    "mismatched_fields": [
+     "amount"
+    ]
+   }
+  },
+  "ecd6609c43f293b55962dcb9eb95db4fc53d99cb2242562bb288ba9fa2fd3d5f": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1427,
+   "output_tokens": 89,
+   "output": {
+    "iban": "CH0331811372806987941",
+    "amount": "344.79",
+    "reference": "932848844228067720154206018",
+    "creditor_name": "Jura Uhren AG",
+    "creditor_city": "Lugano",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "efb6f4ad10f8273d41c7c98f9bdfed40b557bb1c5c9b072386afd0f6b0b72208": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1282,
+   "output_tokens": 764,
+   "output": {
+    "iban": "CH7730248506364128715",
+    "amount": "5294.91",
+    "reference": "142377381026865009144849844",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Luzern",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "f06d96c614fbd8ce14f7f089e5bc9726fdea891c0fd185cf67616457b60ebc45": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1272,
+   "output_tokens": 904,
+   "output": {
+    "iban": "",
+    "amount": "1356.79",
+    "reference": "900247151542675674260103364",
+    "creditor_name": "Rigi Gartenbau GmbH",
+    "creditor_city": "Zürich",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "f223fbdc596f53646f4d2b867cbee53fcad174fa56ecfaf02ac86305f34b6145": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1420,
+   "output_tokens": 403,
+   "output": {
+    "iban": "CH7730248506364128715",
+    "amount": "5294.91",
+    "reference": "142377381026865009144849844",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Luzern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "f3be35d079ee8d15ee5345649b9095f49a427e2d5ead5ff37d8e2c19ee0b31ea": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 882,
+   "output_tokens": 56,
+   "output": {
+    "iban": "",
+    "amount": "",
+    "reference": "",
+    "creditor_name": "",
+    "creditor_city": "",
+    "verdict": "no_qr",
+    "mismatched_fields": []
+   }
+  },
+  "f3c0849b688299964190e8ed8e4891f63d6187ad806c454c784ce7cd33f0face": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1444,
+   "output_tokens": 265,
+   "output": {
+    "iban": "CH4131102160160960542",
+    "amount": "77.72",
+    "reference": "977306549137692144006175438",
+    "creditor_name": "Seeblick Treuhand AG",
+    "creditor_city": "Biel/Bienne",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "f41ce935ec3e82ba382009670e1f1d8396edd217228828cd93b8881aa4377001": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1443,
+   "output_tokens": 100,
+   "output": {
+    "iban": "CH3431227289330817305",
+    "amount": "16684.40",
+    "reference": "204230976589187492869595892",
+    "creditor_name": "Lötschberg Transport AG",
+    "creditor_city": "Biel/Bienne",
+    "verdict": "mismatch",
+    "mismatched_fields": [
+     "amount"
+    ]
+   }
+  },
+  "f4aa81b006b0e0268fd65ef615ce8266e9eeb6aed356e9f06fa2b3a85f41a7c7": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1417,
+   "output_tokens": 182,
+   "output": {
+    "iban": "CH1130242054224647058",
+    "amount": "1021.58",
+    "reference": "603891876919971062491081580",
+    "creditor_name": "Muster AG",
+    "creditor_city": "Luzern",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "f7b0fc55ed75d560ea237c5695a6ff73c6194e601d359544aa200140203a2169": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1433,
+   "output_tokens": 91,
+   "output": {
+    "iban": "CH3931066866921859918",
+    "amount": "638.24",
+    "reference": "247269794343554726831586291",
+    "creditor_name": "Bergquelle Getränke AG",
+    "creditor_city": "Genève",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "f876807d3038455d2603031d677b4f5ccd9e97300d9077e82985f856c470b301": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1423,
+   "output_tokens": 172,
+   "output": {
+    "iban": "CH0331811372806987941",
+    "amount": "344.79",
+    "reference": "932848844228067720154206018",
+    "creditor_name": "Jura Uhren AG",
+    "creditor_city": "Lugano",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  },
+  "fce3107aaf9cf22544d33b1f0e16f4f974efc4b0b482e7667fa5aa4c6e4910cc": {
+   "task": "qr-bill",
+   "served_by": "claude-opus-5-5",
+   "input_tokens": 1438,
+   "output_tokens": 652,
+   "output": {
+    "iban": "CH4630942559136609341",
+    "amount": "1445.90",
+    "reference": "753406874141940985868889463",
+    "creditor_name": "Lötschberg Transport AG",
+    "creditor_city": "Aarau",
+    "verdict": "consistent",
+    "mismatched_fields": []
+   }
+  }
+ }
+}

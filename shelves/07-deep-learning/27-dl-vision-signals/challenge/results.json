@@ -1,0 +1,102 @@
+{
+  "challenge": "qr-bill-reader",
+  "data": "30 invented Swiss QR bills x 5 qualities, 6 tampered",
+  "metric": "share of the five fields read correctly",
+  "by_reader_and_quality": {
+    "QR code alone": {
+      "0": 1.0,
+      "1": 1.0,
+      "2": 1.0,
+      "3": 0.0,
+      "4": 0.0
+    },
+    "OCR + rules": {
+      "0": 0.927,
+      "1": 0.927,
+      "2": 0.873,
+      "3": 0.6,
+      "4": 0.0
+    },
+    "OCR + Claude": {
+      "0": 1.0,
+      "1": 1.0,
+      "2": 1.0,
+      "3": 0.833,
+      "4": 0.0
+    },
+    "combined: QR, else Claude": {
+      "0": 1.0,
+      "1": 1.0,
+      "2": 1.0,
+      "3": 0.833,
+      "4": 0.0
+    },
+    "combined, check digits enforced": {
+      "0": 1.0,
+      "1": 1.0,
+      "2": 1.0,
+      "3": 0.833,
+      "4": 0.0
+    }
+  },
+  "wrong_not_empty": {
+    "QR code alone": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0
+    },
+    "OCR + rules": {
+      "0": 0.073,
+      "1": 0.073,
+      "2": 0.127,
+      "3": 0.24,
+      "4": 0.06
+    },
+    "OCR + Claude": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.06,
+      "4": 0.053
+    },
+    "combined: QR, else Claude": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.06,
+      "4": 0.053
+    },
+    "combined, check digits enforced": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.04,
+      "4": 0.053
+    }
+  },
+  "tamper_detection": {
+    "rules": {
+      "images compared": 90,
+      "tampered caught": "18 of 18",
+      "honest bills flagged": "0 of 72",
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "Claude": {
+      "images compared": 90,
+      "tampered caught": "18 of 18",
+      "honest bills flagged": "0 of 72",
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  "claude_usage": {
+    "input_tokens": 181384,
+    "output_tokens": 47605,
+    "calls": 135
+  },
+  "engine": "rapidocr-onnxruntime 1.4.4",
+  "model": "claude-opus-5-5"
+}
